@@ -145,7 +145,7 @@ def generate_full_report(metrics: list[dict]) -> dict:
     }
 
     # Summary matrices for each key metric
-    key_metrics = ["composite_score", "bertscore_f1", "bleu", "chrf", "labse_similarity"]
+    key_metrics = ["composite_score", "comet_score", "bertscore_f1", "bleu", "chrf", "labse_similarity"]
     report["summary_matrices"] = {}
 
     for metric in key_metrics:

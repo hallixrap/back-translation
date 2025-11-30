@@ -3,7 +3,7 @@ LLM TRANSLATION SUITABILITY MATRIX
 Stanford Clinical Translation Evaluation Framework
 ======================================================================
 
-Generated: 2025-11-30T10:24:08.850382
+Generated: 2025-11-30T12:24:34.616755
 Documents Evaluated: 12
 Total Evaluations: 384
 
