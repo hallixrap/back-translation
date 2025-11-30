@@ -310,6 +310,67 @@ def generate_reviewer_packet_html(
         </div>
         """)
 
+    # Add JavaScript for downloading results as CSV
+    eval_ids = [item.eval_id for item in lang_items]
+    eval_ids_json = json.dumps(eval_ids)
+
+    html_parts.append(f"""
+    <div style='position: fixed; bottom: 20px; right: 20px; background: #27ae60; padding: 15px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3);'>
+        <button onclick='downloadResults()' style='background: white; color: #27ae60; border: none; padding: 12px 24px; font-size: 16px; font-weight: bold; border-radius: 4px; cursor: pointer;'>
+            Download Results as CSV
+        </button>
+        <p style='color: white; margin: 10px 0 0 0; font-size: 12px;'>Click after completing all evaluations</p>
+    </div>
+
+    <script>
+    const evalIds = {eval_ids_json};
+
+    function downloadResults() {{
+        const rows = [];
+        rows.push(['eval_id', 'doc_id', 'model', 'overall_accuracy', 'medical_accuracy', 'cultural_appropriateness', 'clarity', 'safety_preservation', 'actionability', 'critical_error', 'notes']);
+
+        evalIds.forEach(evalId => {{
+            const docModel = document.querySelector(`h3:has-text("${{evalId}}")`);
+            // Extract doc_id and model from the header
+            const header = document.querySelector(`[class="eval-item"] h3`);
+
+            const overall = document.querySelector(`input[name="${{evalId}}_overall"]:checked`)?.value || '';
+            const medical = document.querySelector(`input[name="${{evalId}}_medical"]:checked`)?.value || '';
+            const cultural = document.querySelector(`input[name="${{evalId}}_cultural"]:checked`)?.value || '';
+            const clarity = document.querySelector(`input[name="${{evalId}}_clarity"]:checked`)?.value || '';
+            const safety = document.querySelector(`input[name="${{evalId}}_safety"]:checked`)?.value || '';
+            const action = document.querySelector(`input[name="${{evalId}}_action"]:checked`)?.value || '';
+            const critical = document.querySelector(`input[name="${{evalId}}_critical"]:checked`) ? 'YES' : '';
+            const notes = document.querySelector(`textarea[name="${{evalId}}_notes"]`)?.value || '';
+
+            // Get doc_id and model from the item
+            const itemDiv = Array.from(document.querySelectorAll('.eval-item')).find(div => div.innerHTML.includes(evalId));
+            let docId = '', model = '';
+            if (itemDiv) {{
+                const headerText = itemDiv.querySelector('h3').textContent;
+                const docMatch = headerText.match(/Document: (\\S+)/);
+                const modelMatch = headerText.match(/Model: (\\S+)/);
+                docId = docMatch ? docMatch[1] : '';
+                model = modelMatch ? modelMatch[1] : '';
+            }}
+
+            rows.push([evalId, docId, model, overall, medical, cultural, clarity, safety, action, critical, `"${{notes.replace(/"/g, '""')}}"`]);
+        }});
+
+        const csvContent = rows.map(row => row.join(',')).join('\\n');
+        const blob = new Blob([csvContent], {{ type: 'text/csv' }});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'evaluation_results_{language}_{datetime.now().strftime('%Y%m%d')}.csv';
+        a.click();
+        URL.revokeObjectURL(url);
+
+        alert('Results downloaded! Please email this CSV file back to the research team.');
+    }}
+    </script>
+    """)
+
     # Close HTML
     html_parts.append("</body></html>")
 
@@ -348,25 +409,22 @@ def generate_excel_evaluation_sheet(
         logger.warning("No items to export")
         return None
 
-    # Convert to DataFrame
+    # Convert to DataFrame - simplified version without full text
     data = []
     for item in items:
         data.append({
             'eval_id': item.eval_id,
             'doc_id': item.doc_id,
             'model': item.model,
-            'target_language': item.target_language_name,
-            'original_english': item.original_english[:500] + "..." if len(item.original_english) > 500 else item.original_english,
-            'translated_text': item.translated_text[:500] + "..." if len(item.translated_text) > 500 else item.translated_text,
-            'back_translated_text': item.back_translated_text[:500] + "..." if len(item.back_translated_text) > 500 else item.back_translated_text,
-            'overall_accuracy': '',
-            'medical_accuracy': '',
-            'cultural_appropriateness': '',
-            'clarity': '',
-            'safety_preservation': '',
-            'actionability': '',
-            'critical_errors': '',
-            'reviewer_notes': ''
+            'language': item.target_language_name,
+            'overall_accuracy (1-5)': '',
+            'medical_accuracy (1-5)': '',
+            'cultural_appropriateness (1-5)': '',
+            'clarity (1-5)': '',
+            'safety_preservation (1-5)': '',
+            'actionability (1-5)': '',
+            'critical_error? (Y/N)': '',
+            'notes': ''
         })
 
     df = pd.DataFrame(data)
