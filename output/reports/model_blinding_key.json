@@ -1,0 +1,9 @@
+{
+  "mapping": {
+    "claude-opus-4.5": "Model A",
+    "gemini-3-pro": "Model B",
+    "gpt-5.1": "Model C",
+    "kimi-k2": "Model D"
+  },
+  "note": "DO NOT share with reviewers until evaluation is complete"
+}

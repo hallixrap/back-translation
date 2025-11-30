@@ -71,13 +71,18 @@ class HumanEvaluationItem:
 # EVALUATION FORM GENERATION
 # =============================================================================
 
-def generate_evaluation_items(translations_file: str = "all_results.json") -> list[HumanEvaluationItem]:
+def generate_evaluation_items(translations_file: str = "all_results.json", blind_models: bool = True) -> list[HumanEvaluationItem]:
     """
     Generate evaluation items from translation results.
 
     Each unique document/model/language combination becomes one evaluation item.
+
+    Args:
+        translations_file: Path to translations JSON
+        blind_models: If True, anonymize model names (Model A, B, C, D) to reduce bias
     """
     from translation_pipeline import TranslationResult
+    import random
 
     # Load translations
     filepath = TRANSLATIONS_DIR / translations_file
@@ -87,20 +92,42 @@ def generate_evaluation_items(translations_file: str = "all_results.json") -> li
     translations = [TranslationResult.from_dict(d) for d in data]
     translations = [t for t in translations if t.success]
 
+    # Create blinded model mapping (randomized per run for security)
+    if blind_models:
+        actual_models = sorted(list(set(t.model for t in translations)))
+        # Use consistent mapping: alphabetical order -> A, B, C, D
+        # This ensures the same blinding across all language packets
+        model_labels = ['Model A', 'Model B', 'Model C', 'Model D']
+        model_mapping = dict(zip(actual_models, model_labels))
+
+        # Save the mapping for later unblinding
+        mapping_file = REPORTS_DIR / "model_blinding_key.json"
+        with open(mapping_file, 'w') as f:
+            json.dump({"mapping": model_mapping, "note": "DO NOT share with reviewers until evaluation is complete"}, f, indent=2)
+        logger.info(f"Model blinding key saved to {mapping_file}")
+        logger.info(f"Blinding: {model_mapping}")
+    else:
+        model_mapping = None
+
     items = []
     for i, t in enumerate(translations):
         lang_name = LANGUAGES.get(t.target_language, {}).get('name', t.target_language)
 
+        # Use blinded or actual model name
+        display_model = model_mapping.get(t.model, t.model) if model_mapping else t.model
+
         item = HumanEvaluationItem(
             eval_id=f"EVAL_{i+1:04d}",
             doc_id=t.doc_id,
-            model=t.model,
+            model=display_model,  # Blinded name for display
             target_language=t.target_language,
             target_language_name=lang_name,
             original_english=t.original_text,
             translated_text=t.translated_text,
             back_translated_text=t.back_translated_text or ""
         )
+        # Store actual model for later analysis
+        item._actual_model = t.model
         items.append(item)
 
     logger.info(f"Generated {len(items)} evaluation items")
@@ -310,65 +337,14 @@ def generate_reviewer_packet_html(
         </div>
         """)
 
-    # Add JavaScript for downloading results as CSV
-    eval_ids = [item.eval_id for item in lang_items]
-    eval_ids_json = json.dumps(eval_ids)
-
-    html_parts.append(f"""
-    <div style='position: fixed; bottom: 20px; right: 20px; background: #27ae60; padding: 15px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3);'>
-        <button onclick='downloadResults()' style='background: white; color: #27ae60; border: none; padding: 12px 24px; font-size: 16px; font-weight: bold; border-radius: 4px; cursor: pointer;'>
-            Download Results as CSV
-        </button>
-        <p style='color: white; margin: 10px 0 0 0; font-size: 12px;'>Click after completing all evaluations</p>
+    # Add instruction footer
+    html_parts.append("""
+    <div style='background: #3498db; color: white; padding: 20px; margin-top: 40px; border-radius: 8px; text-align: center;'>
+        <h3 style='margin-top: 0;'>How to Submit Your Evaluation</h3>
+        <p>Use the accompanying Excel spreadsheet to record your scores (1-5) for each item.</p>
+        <p>Match the <strong>eval_id</strong> (e.g., EVAL_0001) between this document and the Excel sheet.</p>
+        <p>When complete, save and email the Excel file back to the research team.</p>
     </div>
-
-    <script>
-    const evalIds = {eval_ids_json};
-
-    function downloadResults() {{
-        const rows = [];
-        rows.push(['eval_id', 'doc_id', 'model', 'overall_accuracy', 'medical_accuracy', 'cultural_appropriateness', 'clarity', 'safety_preservation', 'actionability', 'critical_error', 'notes']);
-
-        evalIds.forEach(evalId => {{
-            const docModel = document.querySelector(`h3:has-text("${{evalId}}")`);
-            // Extract doc_id and model from the header
-            const header = document.querySelector(`[class="eval-item"] h3`);
-
-            const overall = document.querySelector(`input[name="${{evalId}}_overall"]:checked`)?.value || '';
-            const medical = document.querySelector(`input[name="${{evalId}}_medical"]:checked`)?.value || '';
-            const cultural = document.querySelector(`input[name="${{evalId}}_cultural"]:checked`)?.value || '';
-            const clarity = document.querySelector(`input[name="${{evalId}}_clarity"]:checked`)?.value || '';
-            const safety = document.querySelector(`input[name="${{evalId}}_safety"]:checked`)?.value || '';
-            const action = document.querySelector(`input[name="${{evalId}}_action"]:checked`)?.value || '';
-            const critical = document.querySelector(`input[name="${{evalId}}_critical"]:checked`) ? 'YES' : '';
-            const notes = document.querySelector(`textarea[name="${{evalId}}_notes"]`)?.value || '';
-
-            // Get doc_id and model from the item
-            const itemDiv = Array.from(document.querySelectorAll('.eval-item')).find(div => div.innerHTML.includes(evalId));
-            let docId = '', model = '';
-            if (itemDiv) {{
-                const headerText = itemDiv.querySelector('h3').textContent;
-                const docMatch = headerText.match(/Document: (\\S+)/);
-                const modelMatch = headerText.match(/Model: (\\S+)/);
-                docId = docMatch ? docMatch[1] : '';
-                model = modelMatch ? modelMatch[1] : '';
-            }}
-
-            rows.push([evalId, docId, model, overall, medical, cultural, clarity, safety, action, critical, `"${{notes.replace(/"/g, '""')}}"`]);
-        }});
-
-        const csvContent = rows.map(row => row.join(',')).join('\\n');
-        const blob = new Blob([csvContent], {{ type: 'text/csv' }});
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = 'evaluation_results_{language}_{datetime.now().strftime('%Y%m%d')}.csv';
-        a.click();
-        URL.revokeObjectURL(url);
-
-        alert('Results downloaded! Please email this CSV file back to the research team.');
-    }}
-    </script>
     """)
 
     # Close HTML
