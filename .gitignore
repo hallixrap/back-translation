@@ -1,0 +1,41 @@
+# Virtual environment
+backtranslation_env/
+venv/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets - DO NOT COMMIT
+# Make sure to remove API keys from config.py before committing
+# Or use environment variables instead
+
+# Checkpoints (can be regenerated)
+output/translations/checkpoint.json
+
+# Large model caches
+.cache/
+*.ckpt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log

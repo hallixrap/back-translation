@@ -1,0 +1,43 @@
+﻿This sounds great-thanks so much for this hard work. This would be a great next step!
+
+
+Kevin Schulman, MD
+Professor of Medicine
+Clinical Excellence Research Center
+CAM building
+453 Quarry Rd, # 117B
+Palo Alto, CA 94304
+Kevin.Schulman@Stanford.Edu
+ 
+From: Chuk Anyaegbuna <chukanya@stanford.edu>
+Date: Monday, November 24, 2025 at 5:18 PM
+To: Kevin Schulman <kevin.schulman@stanford.edu>
+Cc: Eduardo Juan Perez Guerrero <eperezg@stanford.edu>, Natasha Z.R. Steele <nzsteele@stanford.edu>, April Shichu Liang <asliang@stanford.edu>
+Subject: Proposal: Automated LLM Translation Scorecard & Study Expansion
+
+
+Hi Kevin,
+
+
+Following our recent discussions, we have outlined a plan to develop the translation "scorecard" to assess model suitability for clinical patient translation.
+
+
+We believe the most efficient path forward is to partner with Eduardo to expand on the foundational work he has already completed (poster attached). While his initial study focused on Spanish, we propose scaling this methodology to create a multi-dimensional matrix.
+
+
+Proposed Methodology:
+* Source Material: Standardized NIH/NLM patient education materials.
+* Scope: We will test across multiple large language models (LLMs) and approximately 8 diverse languages (including those with non-Latin characters).
+* Metrics: We will utilize automated NLP metrics (e.g., BLEU, semantic similarity) to analyze back-translations against the original English text.
+
+
+Eduardo has done excellent work establishing this framework, and we are excited to support him in expanding this into the larger study you envisioned.
+
+
+Please let us know if this aligns with your expectations, and we will proceed with the analysis.
+
+
+Best, 
+
+
+Chuk

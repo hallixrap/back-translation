@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html><head>
+<title>Back Translation Evaluation Report</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 40px; }
+h1 { color: #2c3e50; }
+h2 { color: #34495e; border-bottom: 2px solid #3498db; }
+table { border-collapse: collapse; margin: 20px 0; }
+th, td { border: 1px solid #ddd; padding: 10px; text-align: center; }
+th { background-color: #3498db; color: white; }
+.suitable { background-color: #2ecc71; color: white; }
+.caution { background-color: #f39c12; color: white; }
+.not-recommended { background-color: #e74c3c; color: white; }
+.summary-box { background: #ecf0f1; padding: 20px; border-radius: 8px; margin: 20px 0; }
+</style>
+</head><body>
+<h1>🔬 Back Translation Evaluation Report</h1>
+<p>Generated: 2025-11-30T10:24:08.850382</p>
+<div class='summary-box'>
+<strong>Total Evaluations:</strong> 384<br>
+<strong>Models:</strong> gpt-5.1, gemini-3-pro, kimi-k2, claude-opus-4.5<br>
+<strong>Languages:</strong> 8<br>
+<strong>Documents:</strong> 12
+</div>
+<h2>Composite Score Matrix</h2>
+<table>
+<tr><th>Model</th>
+<th>Arabic</th>
+<th>Chinese (Simplified)</th>
+<th>Haitian Creole</th>
+<th>Korean</th>
+<th>Russian</th>
+<th>Spanish</th>
+<th>Tagalog/Filipino</th>
+<th>Vietnamese</th>
+</tr>
+<tr><td><strong>claude-opus-4.5</strong></td>
+<td class='suitable'>0.889</td>
+<td class='suitable'>0.861</td>
+<td class='suitable'>0.906</td>
+<td class='suitable'>0.859</td>
+<td class='suitable'>0.860</td>
+<td class='suitable'>0.919</td>
+<td class='suitable'>0.907</td>
+<td class='suitable'>0.878</td>
+</tr>
+<tr><td><strong>gemini-3-pro</strong></td>
+<td class='suitable'>0.860</td>
+<td class='suitable'>0.831</td>
+<td class='suitable'>0.852</td>
+<td class='suitable'>0.819</td>
+<td class='suitable'>0.825</td>
+<td class='suitable'>0.894</td>
+<td class='suitable'>0.874</td>
+<td class='suitable'>0.843</td>
+</tr>
+<tr><td><strong>gpt-5.1</strong></td>
+<td class='suitable'>0.875</td>
+<td class='suitable'>0.848</td>
+<td class='suitable'>0.892</td>
+<td class='suitable'>0.836</td>
+<td class='suitable'>0.854</td>
+<td class='suitable'>0.890</td>
+<td class='suitable'>0.888</td>
+<td class='suitable'>0.872</td>
+</tr>
+<tr><td><strong>kimi-k2</strong></td>
+<td class='suitable'>0.859</td>
+<td class='suitable'>0.838</td>
+<td class='suitable'>0.842</td>
+<td class='suitable'>0.808</td>
+<td class='suitable'>0.814</td>
+<td class='suitable'>0.879</td>
+<td class='suitable'>0.869</td>
+<td class='suitable'>0.840</td>
+</tr>
+</table>
+<p><span class='suitable' style='padding:3px 8px;'>✓ Suitable (≥0.80)</span> 
+<span class='caution' style='padding:3px 8px;'>⚠ Caution (0.60-0.79)</span> 
+<span class='not-recommended' style='padding:3px 8px;'>✗ Not Recommended (<0.60)</span></p>
+<h2>Model Rankings</h2>
+<table><tr><th>Rank</th><th>Model</th><th>Avg Score</th><th>N</th></tr>
+<tr><td>1</td><td>claude-opus-4.5</td><td>0.885</td><td>96</td></tr>
+<tr><td>2</td><td>gpt-5.1</td><td>0.869</td><td>96</td></tr>
+<tr><td>3</td><td>gemini-3-pro</td><td>0.850</td><td>96</td></tr>
+<tr><td>4</td><td>kimi-k2</td><td>0.843</td><td>96</td></tr>
+</table>
+<h2>Language Rankings</h2>
+<table><tr><th>Rank</th><th>Language</th><th>Avg Score</th><th>N</th></tr>
+<tr><td>1</td><td>Spanish</td><td>0.896</td><td>48</td></tr>
+<tr><td>2</td><td>Tagalog/Filipino</td><td>0.884</td><td>48</td></tr>
+<tr><td>3</td><td>Haitian Creole</td><td>0.873</td><td>48</td></tr>
+<tr><td>4</td><td>Arabic</td><td>0.871</td><td>48</td></tr>
+<tr><td>5</td><td>Vietnamese</td><td>0.858</td><td>48</td></tr>
+<tr><td>6</td><td>Chinese (Simplified)</td><td>0.844</td><td>48</td></tr>
+<tr><td>7</td><td>Russian</td><td>0.838</td><td>48</td></tr>
+<tr><td>8</td><td>Korean</td><td>0.830</td><td>48</td></tr>
+</table>
+</body></html>

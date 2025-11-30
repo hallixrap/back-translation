@@ -1,0 +1,47 @@
+# Back Translation Project - Dependencies
+# Stanford Clinical Translation Evaluation Framework
+#
+# Install with: pip install -r requirements.txt
+
+# =============================================================================
+# API CLIENTS
+# =============================================================================
+openai>=1.0.0
+anthropic>=0.18.0
+google-generativeai>=0.3.0
+huggingface_hub>=0.20.0     # For Kimi K2 via HF Inference API
+
+# =============================================================================
+# NLP METRICS (REQUIRED)
+# =============================================================================
+sacrebleu>=2.3.0          # BLEU and ChrF metrics
+bert-score>=0.3.13        # BERTScore semantic similarity
+sentence-transformers>=2.2.0  # LaBSE embeddings
+torch>=2.0.0              # Required by transformers
+transformers>=4.30.0      # Required by bert-score
+
+# =============================================================================
+# DATA PROCESSING (REQUIRED)
+# =============================================================================
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0           # Excel file support
+
+# =============================================================================
+# OPTIONAL - ENHANCED METRICS
+# =============================================================================
+unbabel-comet>=2.2.0      # COMET metric (trained on human judgments)
+textstat>=0.7.3           # Readability metrics
+
+# =============================================================================
+# OPTIONAL - VISUALIZATION
+# =============================================================================
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# =============================================================================
+# OPTIONAL - DEVELOPMENT
+# =============================================================================
+# pytest>=7.0.0           # Testing
+# black>=23.0.0           # Code formatting
+# flake8>=6.0.0           # Linting

@@ -1,0 +1,497 @@
+Natasha Steele | 00:09
+Hey, can you hear me? Okay?
+Chukwuebuka Anyaegbuna | 00:10
+Yep, I can. How are you?
+Natasha Steele | 00:13
+I'm okay. I'm on my stupid computer without a camera. At some point, it's going to be old that this is a problem for me.
+Chukwuebuka Anyaegbuna | 00:20
+Good. [Laughter] I always hesitate between Zoom and teams.
+Natasha Steele | 00:24
+No one's going to think it's cute anymore.
+Chukwuebuka Anyaegbuna | 00:30
+I don't know what I think. It defaults to Teams, so maybe I just switch it back to Zoom and everyone's happier. I think Teams are a pain.
+Natasha Steele | 00:39
+Teams are a pain. But I think the integration with Outlook calendaring is smoother with Teams for some reason, so sometimes it's my fault too.
+Chukwuebuka Anyaegbuna | 00:47
+Yes, I think that's what's gotten me... [Laughter].
+Natasha Steele | 00:52
+Yeah, I was on service with April over the weekend, so I'm pretty sure she's still in service today, but hopefully, she'll be able to join us.
+Chukwuebuka Anyaegbuna | 01:02
+No worries. When are you there? I guess there's no real break for Thanksgiving for you guys.
+Natasha Steele | 01:09
+Well, I just did seven days in the hospital, so I'm not... Yeah.
+Chukwuebuka Anyaegbuna | 01:14
+My God, no, I thought it was better when you got to your level.
+Natasha Steele | 01:14
+I was... It was... I think April's on an eight-day stretch that includes the holiday.
+So it is better. I only do that once a month.
+Chukwuebuka Anyaegbuna | 01:28
+Sound praise be [Laughter] thank God I cri eight days stretch. I don't it yeah, I do and I don't I guess its it's good because it's I it's interesting.
+Natasha Steele | 01:38
+Yeah, I know exactly. You're like, "I regret none of my life choices.
+Chukwuebuka Anyaegbuna | 01:49
+Do you still find it interesting and challenging in all the right sorts of ways?
+Natasha Steele | 01:54
+Yeah. I do. There were a lot of things because I usually take care of surgical patients. This past weekend I was just filling in at Sequoia, which is one of the hospitals we are. We bought a wing in one of these hospitals in Redwood City, and April's usually there.
+So I came over for the weekend just to help. I was like, "My God, I forgot how to do some of this medicine. Take care of acute liver failure and cerebral palsy kids." I was just like, "My God."
+Okay. Yeah, but I was definitely out of my element again. So it was a good brush-up for me.
+Chukwuebuka Anyaegbuna | 02:30
+My God. What do you do in the scenarios? Are you straight to a tool? Are you straight to open evidence or are you like... No.
+It's in here somewhere. I just need to go with the flow.
+Natasha Steele | 02:39
+That's a good question. Yeah, I feel like my answer is different now than it was before. I feel like up-to-date was just such a US-based stuff.
+Chukwuebuka Anyaegbuna | 02:47
+Yes.
+Natasha Steele | 02:49
+It was such a bible for us, and it was human created and curated, right?
+Chukwuebuka Anyaegbuna | 02:51
+Yeah.
+Natasha Steele | 02:56
+So you knew where recommendations were coming from. Whereas up-to-date, even up-to-date now has a partnership with Open Evidence. So, you just have to check yourself a little more. I use Open Evidence a good amount. I use GPT a good amount.
+If it's just something random like dosing or things like that, but we sit next to our pharmacists, so they help us. Yeah, I think I still think I was talking to Michael Warren about this.
+Chukwuebuka Anyaegbuna | 03:19
+[Laughter].
+Natasha Steele | 03:24
+I think one of the biggest problems with the way we practice with Epic in terms of decision-making and information is you just spend so much time in discovery and chart discovery.
+So you're going through the information that's in Epic about that person, upwards of five to ten different places, and then you have to resynthesize it in a way that makes sense to you.
+Chukwuebuka Anyaegbuna | 03:41
+My God.
+Natasha Steele | 03:45
+And so that's, you know, the process that kills me most.
+Chukwuebuka Anyaegbuna | 03:51
+And it's. I guess it's hard. That's so idiosyncratic to each person. Michael is probably looking for the tool or the problem that he can build to solve this.
+But each person has their own workflow, and each site has its own epic set instantiation, so it's really hard to generalize, but that's just awful.
+Natasha Steele | 04:06
+One.
+Chukwuebuka Anyaegbuna | 04:13
+Like five to ten places. Christ.
+Natasha Steele | 04:17
+That is a part of the fragmentation of healthcare that kills me, but onwards to more exciting and doable things. Maybe let's get started. Then we'll just wait for April. If she is able to join us, Great.
+Chukwuebuka Anyaegbuna | 04:33
+Yeah, cool.
+Natasha Steele | 04:35
+Pull up your agenda.
+Chukwuebuka Anyaegbuna | 04:35
+MAIN two things: just talking through the three projects, what are the questions? Are we aligned that these are the three projects that we want to go forward with? What are the questions that we need to answer for those projects?
+Then, how do we approach prioritization if we decide to go across all of them? I did like a deep research. I was trying to do a deep research on actually to see if there was much published based on your question, but I haven't gotten to reading it.
+Natasha Steele | 05:07
+No.
+Chukwuebuka Anyaegbuna | 05:09
+But I'm. It sounds like. It sounds like there's some stuff out there, but, the literature currently lacks a definitive, prevalent study of ad hoc machine translation in discharge documentation. So maybe there's something there.
+Natasha Steele | 05:30
+I'm the paper that Steven sent during that meeting on Friday was not it was like adjacent, but not the exact question we're trying to answer.
+Chukwuebuka Anyaegbuna | 05:31
+Yeah, eight.
+Natasha Steele | 05:39
+So it was essentially like the frequency of like language concordant care for discharge instructions in a very small sample size. It was like something like 200.
+But it wasn't clear on if those translations... I think there are three buckets that we talked about, right? There's people who get things in English, people who get things from a translator or interpreter, and people who get things from a Google Translate or we 5?
+Chukwuebuka Anyaegbuna | 05:55
+Yes.
+Natasha Steele | 06:05
+And obviously won't really be able to, like, tease out either a model or if it's.
+Chukwuebuka Anyaegbuna | 06:08
+Yeah. how do we know? Yeah.
+Natasha Steele | 06:10
+But I do think, because we have the log, we will have access in partnership with Erin's team of a log of what requests came through their group. We are able to then say,
+"Well, we don't know how this person translated it, but it didn't go through our interpretation team or it didn't go through a translation team.
+Chukwuebuka Anyaegbuna | 06:34
+Okay, yeah, so it's the first thing we'll see is we'll just get the proportion of people who don't have English as their first language that have been discharged in a particular period of time.
+Natasha Steele | 06:36
+And so therefore, it counts in this third bucket of either machine translation or another, less preferred, and another unauthorized route.
+Chukwuebuka Anyaegbuna | 07:05
+And once we get that data, we corroborate the discharge instructions with what we find from Erin's team in that period of time. It's just step number two. Then step number three is, "Okay, if we can't find a corresponding note to Erin's team, then it's either a bilingual person or they've used a translation tool."
+I guess that's the level where we'll stop because we won't know whether they've necessarily translated that thing.
+Natasha Steele | 07:38
+Right? Even if it's... I think we'll just be able to assume that it's a Google Translate. It's nice to see you super quickly. We're talking about this third idea that came across our desk last week that Steven had provided a paper on. This idea with the banner identification, we'll be able to look at a period of time, let's just say a three-month period of time. The total number of patients who are flagged as to their providers as having a language other than English as their primary.
+Then we'll be able to say, "Are there discharge instructions in English?" "Are they in their native language?" We'll be able to compare that with Erin's team for like MRN requests that came in. The third option is either Google Translate or OpenAI, some other form of translation, I think. Chuck, to your comment around...
+It's a bilingual person. Even if you're bilingual, you are not allowed to provide language-concordant care in that patient's language without going through certification and et cetera. I would say maybe under five providers have...
+It's very infrequent that people have that
+April Liang | 09:00
+Bilingual certification only allows you to certify you provide interpret or speaking verbal speaking to the patient directly. It does not allow you to interpret for other people and translate written documents. Translation is a totally different process. That bilingual certification only tests oral in that language.
+I think that's... I feel like Natasha, I feel like that's a good, interesting question. I just worry that it's not a question that Kevin asked us, and two, that we're spreading our resources quite thin.
+I feel like Chuck, this is part of the goal for today, to understand prioritization and roll responsibilities, right?
+Chukwuebuka Anyaegbuna | 09:46
+YP.
+April Liang | 09:47
+Yeah. I wonder, Natasha, if that's a project that the equity team can do and make. I don't know if Caitlin and Jessica would want to do that one because I feel like.
+Natasha Steele | 10:00
+Yep, we can get that project done another way and just make sure that our internal core group of people, me, you, other folks I have been working on this, anyone who's interested can join as an author and a reviewer.
+I agree with April. I don't think you need to drive that analysis if you want to really narrow for bandwidth purposes, that's totally reasonable.
+April Liang | 10:21
+Yeah, I feel like we should narrow. We already have a lot going on, and I can tell Chuck is spread thin here. Yeah, and I feel like that project again, it's not Kevin's priority, unfortunately.
+Natasha, I actually do think maybe the equity. I'm not sure what the equity team works on, but either the equity committee or Jessica and Caitlin. I feel like this could be something very much like something they're already working on, right? In fact, when Caitlin was translating those texts, did she not do a baseline like... No.
+Natasha Steele | 10:59
+Part of the problem is that it's been quite difficult to identify, even though that information's in Epic, right? Your housing status, if you're homeless, that information is in Epic. It's very hard retrospectively, and I don't know if it's just about the... Did you like the mechanism through which people are going to try and obtain that data?
+It's very hard to identify a dataset of our own institution of those patients without any kind of flag we have now.
+April Liang | 11:34
+So I mean, we already have it there. I think the challenge is figuring out when a just instruction has the patient's language in it. That is all free text. How can you detect what language it is? That I feel like is the harder problem.
+Again, maybe not our problem to solve right now, but I just wanted to make sure. Like, Caitlin hasn't already done this as part of her baseline.
+Natasha Steele | 11:57
+Yeah, I don't think think.
+April Liang | 11:58
+She has, but... Okay. Yeah, I think the hardest part is what language the patient speaks because they're like literally a patient column that I just pulled and it's in my patient list now, but it's more like how do we actually know if the non-concordant language is in the discharge instruction or the concordant one?
+Because then you have to basically use LP or something to automatically detect language, right? If they provided the English half and the Spanish half, as long as the Spanish one is in there, you don't penalize them.
+So it's actually, I think, more like figuring out what instructions they were given, not like what language do they speak?
+Natasha Steele | 12:36
+Yeah, we could have... Yeah, we have done manual review for that for other things, like for homeless patients in the past. So anyway, we can let's do this. I'm happy to bring that to the larger held equity committee.
+Then, just so that I feel like our central Moonshot group is going to be pushing forward publications in this space. So just making sure we have a core authorship group for review and projects like this, I'm happy to include our team as co-authors.
+So just so you know, we're all... People with shared interests in this space are just pushing forward the work together, but let's talk about the other two research questions, Chuck, so that we have a sense for next steps.
+I know, April, you're still at Sequoia today, right?
+Chukwuebuka Anyaegbuna | 13:28
+You're on mute.
+Natasha Steele | 13:30
+She looks like she still wants to quit.
+Chukwuebuka Anyaegbuna | 13:32
+Yeah.
+April Liang | 13:33
+Yes, I am, and that's why I'm on. I was late, I apologize, but I was actually trying to do this, sorry, here a slicer dicer. Like, this is not hard of figuring out our languages.
+Chukwuebuka Anyaegbuna | 13:43
+Okay.
+April Liang | 13:51
+We can. I can hide English.
+So that it doesn't make any other one look tiny. But like Spanish is about 164,000. I don't know if you guys can actually see.
+Natasha Steele | 14:02
+But what time period is this? April.
+April Liang | 14:04
+This is all time. Okay, I can adjust this. I can do I only grab the top 20 as you can see like the no is none. I guess we have a lot of none like we just didn't add one. So it's not any of these. It's actually other smaller languages.
+Chukwuebuka Anyaegbuna | 14:28
+Is this an Epex own query tool or something?
+April Liang | 14:28
+So yeah, this is. Yeah, this is Slicer Dicer.
+Chukwuebuka Anyaegbuna | 14:34
+I'll see that. Okay. Cools.
+April Liang | 14:37
+Not everyone has access to it, but yeah, [Laughter] I can do by written language, which I think may get us less results, but hope cannot spell you guys.
+Chukwuebuka Anyaegbuna | 14:40
+The privilege. For you?
+April Liang | 14:52
+I have to work on a discharge summary that is. Top 20 and 4 written languages.
+And we can select this if you guys want. Only the last year our patients, I guess, or you can say like even hospitalized patients. None of the above is a lot, but I feel like we probably don't fill this field out very much. The written language reference, yeah, what is that?
+Chukwuebuka Anyaegbuna | 15:17
+Yeah.
+April Liang | 15:20
+English is so small, it tells me that we probably don't fill this field out.
+Natasha Steele | 15:24
+I wonder if this is going to get better with this new banner. Like if you look in the last two weeks since the banner was released, if we still have such a big, unknown category.
+April Liang | 15:36
+Does the banner ask people to fill in the language at administration? I see. So it's not a is provider. facing.
+Natasha Steele | 15:46
+It is provider. It's all it's like an edy inpatient provider. It's just like stuck on their chart as a flag.
+April Liang | 15:56
+Okay, so these are not tracked over time. So I think I could do all patients who had been hospitalized and were admitted or I can do some, I can do basically hospital admissions. Then we connect to the patients and all patients who are admitted. I don't know, sorry, hopped too fast. All patients, all hospital admissions between the past six months. Sure. Check on there.
+So there were 24,000 patients who were hospitalized and this was over the past six months, and this is their language breakdown.
+Chukwuebuka Anyaegbuna | 16:57
+Co.
+Natasha Steele | 16:59
+So, April, does this information in the slicer and Dier give you a mechanism for exporting the MRNs for different language?
+April Liang | 17:10
+Technically, no, because that's all PH I, but you can actually look at it. They just locked down the export really closely. So I can actually go to detailed crosstab. It takes forever, but if I wanted to, I could see all English-speaking patients who've been admitted.
+It gives you a list with MRN, you know, blah.
+Natasha Steele | 17:32
+I see, but you can't export it.
+April Liang | 17:34
+Correct? It's, like, not encouraged.
+Natasha Steele | 17:39
+Okay, all right, well, that might get us closer to being able to look at this.
+April Liang | 17:46
+But, yeah, the issue is more like I was saying, the issue is that this is all structured data. It's not clean, but it at least exists to me. The bigger question is how do you tell whether a discharge instruction is in that patient's language?
+Natasha Steele | 18:01
+Yeah, I think that... Even in this day and age, it's just going to be... Unless someone like Bill WA, from the data side, was able to just take their MN and export their discharge instructions and then we can just code it
+using an like.
+April Liang | 18:22
+An what language is this? Like those auto-detect languages. Yeah, anyway, yeah, so I know we're... I need to work on this discharge summary, but in the interest of time.
+Chukwuebuka Anyaegbuna | 18:34
+[Laughter] okay, so [Laughter] yeah, now continue.
+April Liang | 18:42
+Yeah. I was gonna say, Chuck, I feel like, in my opinion, we focus on both Avon's project and Eduardo's project. Eduardo's project because it's the one that Kevin wants.
+And Ivon Prader. Because it's the one that I think Jonathan wants and we all think is potentially more meaningful.
+Chukwuebuka Anyaegbuna | 19:09
+Yeah, that makes sense.
+April Liang | 19:12
+And then. Go on.
+Chukwuebuka Anyaegbuna | 19:14
+Yeah, no thoughts. Natasha. Yeah, I'm happy with the... So the Eduardo project is the LLM back translation at scale to develop a scoreboard for Kevin. And then Jonathan's is... Jonathan's then Evonne's one changed from patient comprehension mainly to can we develop a framework around patient comprehension to test new models? Is that... Are we aligned? On what? The question is there.
+April Liang | 19:44
+Yeah, I feel like instead of framework, maybe it's like, is there some sort of reliable metric that captures comprehension? And then we apply that metric or framework, whatever you want to call it, to some models, right?
+But I think the question is, it's almost like, how do you explain patient comprehension as a concept and concretely, right? And that ends up being like a yes-no test. Is it a multiple-choice test? Is that something...?
+But I think my concern with that is, how do you then validate it? What is the gold standard for comprehension? That you'll say, "My results are predictive of comprehension." Is it the readmission rate, right?
+How would you know that it's a good metric? metric?
+Chukwuebuka Anyaegbuna | 20:29
+Yeah. Yeah, I think that.
+April Liang | 20:31
+That's my issue here. We can create a metric. We can apply it to as many things as we want, but how would you prove that the metric actually measures what you say it does? Does that make sense? sense?
+Chukwuebuka Anyaegbuna | 20:43
+Yeah, completely. I don't think we can do anything that's that longitudinal to say we know patient comprehension. We know that this model works for patient comprehension because they scored four out of five or five out of five, and there were no downstream clinical consequences.
+I think that only... I think the thing we can do is... I guess this is why it's good to know which question to answer. We can develop an end-to-end pipeline where the output for new models is always like this: "This is how patients will do on this new model translating from this new language to this other language." The patient.
+I think if we go into understanding what patient comprehension is, it almost feels abstracted away from the LM question. It's more like answering, "What is patient comprehension?" and how do we solve that within a clinical setting, which I don't know if we have the resources to do.
+April Liang | 22:00
+So then you're saying more like maybe we're developing a benchmark. We're just saying, "We're going to use this measure, and then let's just run, apply this measure to a bunch of current models."
+We just assume the measure is correct and useful.
+Chukwuebuka Anyaegbuna | 22:12
+Yeah, I don't know if we have enough linguistic expertise. I know probably if we do it, you might do it, et cetera. I don't know people's backgrounds, but I think getting into the linguistic definition of patient comprehension outside of what's already in the literature might be a bit too hard. Whereas I think getting to a benchmark of this is what a good translation end-to-end pipeline looks like might be a bit easier. I'm not sure, though. [Laughter].
+Natasha Steele | 22:50
+Yeah, I mean, I don't know that we do need to validate it in this. I think it's okay to propose a benchmark and a metric. I don't know that we need to validate it, and our... This is more in our initial publication related to it.
+I think future work could speculate on longitudinal validation studies and what that might look like, but I don't think we necessarily need to both propose the framework and study it in the exact same breath.
+But, I guess backing up from that. So, I know obviously we spent a good amount of time talking about that research question with a larger group on Friday. I know between Yvonne and Eduardo, there was definitely some interest in pursuing something like that. How feasible do we think, or what resources or what constraints do we have in just answering Kevin's question in a way that will get him not raving in the next four subsequent meetings that we have about this specifically? We can't promise that he won't worry about something else.
+Chukwuebuka Anyaegbuna | 24:06
+Yes. Yeah, I was speaking to someone, and they were saying that his thing used to be financial something. There was something that he had been as Barret about with the other lot a few years ago.
+So apparently, this is not new. So what? Kevin's thing is, can we develop a scorecard that allows us to know that models are suitable for patient translation in a clinical setting? For translation and clinical.
+April Liang | 24:41
+Yes. No, I feel like he just said, "Give it a bunch of NIH library stuff, have some automated scores, do it.
+Chukwuebuka Anyaegbuna | 24:49
+Yeah.
+April Liang | 24:52
+And I mean, I told him, "Hey, the automated scores don't necessarily predict or correlate with actual content quality."
+But he just wanted that, so.
+Chukwuebuka Anyaegbuna | 25:03
+What was your definition? What was your thinking of his question? Because I think this is the thing. I think he might not be super clear on what he wants because I've had some conversations with him where I just didn't speak. He's like, "Just gone in on how much he doesn't like translation services and interpreters and stuff like that.
+April Liang | 25:19
+Yeah, of course. My understanding from his vague, not very technical words is basically he wants to do text, like educational material.
+Chukwuebuka Anyaegbuna | 25:21
+And it's hard to actually clarify what the question is from him. So what have you heard from him? Yes.
+April Liang | 25:38
+Maybe he keeps on talking about the NIH library or N NM library for patient instructions.
+So like, you know, some standardized patient instructions translate using LMS multiple different models.
+Chukwuebuka Anyaegbuna | 25:47
+Yeah, yes.
+April Liang | 25:50
+So I almost think like a matrix of different models, a matrix of different languages. Then translate that material and then use Elem again to back-translate it.
+Then compare. Basically, is the back-translation the same as the translation or same as the original? And as the translation same as the original? So, use automated scores to do that.
+This is basically what I heard him say. He basically feels like the automated scores are sufficient to predict clinical usability despite my protests. So, I'll just give him what he wants.
+Chukwuebuka Anyaegbuna | 26:24
+Yeah, this is where I'm a little bit... Because I try to map this out and get into it a bit more detail. Okay. Let me just show my screen quickly because this is what I got up in the meeting. What's it doing? My God, Microsoft, is it a trillion-dollar company? None of the stuff works, just it's crazy to me.
+Okay, bear with me two seconds. Okay, is this allowed? Let me live. Okay, this one, you can't see anything, right? I said it's doing something, you can see it.
+Natasha Steele | 27:01
+I guess again, I can't yet.
+Chukwuebuka Anyaegbuna | 27:05
+Okay, great. I can't see it on my side.
+Okay. So the thing is that when he's saying, like, automated or automatic stuff, it's not clear what the protocol actually looks like. God. Because of...
+Okay, so what I get is that we're trying to test different models, but then there's... We need something to back translate it, and we need the first thing that we need is... Okay, these are the structured facts that we need to know from the document, and then we have the model which translates it into the language that we want to test.
+Natasha Steele | 27:46
+I think.
+Chukwuebuka Anyaegbuna | 27:47
+But then... Yeah.
+April Liang | 27:50
+I think you're overcomplicating it basically as Eduardo study.
+Chukwuebuka Anyaegbuna | 27:52
+Okay. So what's the automated? Yeah.
+April Liang | 27:55
+So, you have a chunk of text, right? Whatever it is, like NIH patient instructions on CHF. You basically have ten elements that you've chosen, right? Whether it's Gemini or GPT-5 or whatever.
+You basically give that text to each of those elements and say, "Hey, use the same prompt. Translate this into Spanish. This is for a patient, whatever it is." Then each one... Then it spits out something in Spanish.
+Then you basically give that Spanish part back to the same one and say, "Okay, now translate this back into English." Or translate this into English. So now you have the English original, which was the...
+And I don't know what patient thing. You have each model's Spanish translation and you have each model's back translation of their own Spanish translation. So now you kind of have two sets with which you can compare. You can compare the Spanish one to the original using cross-language scores that Eduardo talked about.
+You know, like the Excel or... I don't remember his slides. He should share his slides with us. Or actually, just look at the poster. I uploaded it somewhere.
+Chukwuebuka Anyaegbuna | 29:08
+I've got it here, though.
+April Liang | 29:09
+And we can compare same-language linguistics, similar semantic similarity, or whatever from the back translation to the English original.
+Chukwuebuka Anyaegbuna | 29:20
+From the back translation to the lingu... Okay, so we are not assessing comprehension at all. We're just thinking of an P.
+April Liang | 29:28
+Correct? There's no patient involvement in any of this. He just wants automated LPs. So like the blue and the Roberta and the whatever and like, correct.
+Chukwuebuka Anyaegbuna | 29:38
+He just wants those classic LPP metrics.
+April Liang | 29:41
+I mean, he doesn't know what the ultimate looks like.
+Chukwuebuka Anyaegbuna | 29:42
+Okay.
+April Liang | 29:44
+Give me computer metrics like the automated ones, that way they're scalable.
+Natasha Steele | 29:48
+How many languages do you do this for? Obviously, Eduardo has done it for Spanish. This is four, so we'd have to obviously update this. But would you do this for five languages? When you do it for ten like.
+April Liang | 30:02
+I mean, I think we can do like a smattering, we can choose eight again, just like we did for, you know, initially our patient comprehension 1. Some like high saturation and some lower, like digital unrepresented, digitally underrepresented and like a mix of maybe Latin and Latin lat Latin and non Latin characters.
+Chukwuebuka Anyaegbuna | 30:21
+Yeah, and what is the... What do we then present?
+April Liang | 30:22
+Yeah, and then.
+Chukwuebuka Anyaegbuna | 30:28
+Like we then present this expanded Eduardo study to him, what does this allow him to do?
+April Liang | 30:36
+I don't know, he will interpret it however he wants to interpret it. That is not something that I can control. I feel like it'll hopefully convince him, first of all, that I feel like he's really seen that study that we've shared with him or something, the one about the Haitian Creole.
+Chukwuebuka Anyaegbuna | 30:43
+That's fine.
+April Liang | 30:50
+I think he's really gotten in his head now. He's mentioned the Caitlin CO thing a bunch of times now. Hopefully, it'll be further proof that it doesn't do well on certain languages. Maybe that'll actually sync in and he'll realize that maybe it's not safe for every single language.
+I think the other thing is, maybe he'll be like, "Look, it does really great for Spanish." He can go shake whatever tree he needs to be like, "Can we get rid of translators from French?" He's probably not going to win, but we do what we does.
+Chukwuebuka Anyaegbuna | 31:17
+Yeah. Yeah. Okay. That's helpful.
+April Liang | 31:19
+Yeah, I don't know, Natasha, is that kind of your take?
+Chukwuebuka Anyaegbuna | 31:20
+Okay.
+Natasha Steele | 31:23
+Yeah, I mean, in particular, if what we show shows that these models don't perform as he thinks they should, I think that would be the most helpful thing to us, right? That's the best-case scenario that he puts down this idea that all we need are robust LMS deployed in UN, restricted and uncontrolled hospital settings that have video capability.
+Best-case scenario. We show him where some of the holes are and why it's important for us to do studies like the ones we're doing with language translation and interpretation. But I think at a baseline, he just wants to see this out there that these models perform and how that varies across language types.
+I think I agree. I think that's what I've been hearing him say the most. And would fulfill at least that sort of base analysis.
+Chukwuebuka Anyaegbuna | 32:23
+So the goal is to get to a similar table that he has here, in his results table with more elements.
+April Liang | 32:30
+Except with more languages, I think, like a multidimensional matrix. I guess it would really only be because there's no actual reference.
+Chukwuebuka Anyaegbuna | 32:36
+Yeah, okay, roughs.
+April Liang | 32:44
+Spanish now, because we don't have the gold standard translation in this study, I think it's too much effort to get the gold standard to compare.
+So I think it'll be one fewer row for many of these. But yeah, there's no ref basically.
+Chukwuebuka Anyaegbuna | 33:01
+Yeah, okay. Should I summarize this work that Eduardo has done and add on the elements that we've just discussed about the multiple languages in a matrix minus the reference in the translated language? Should I do that and share it with him?
+So before we charge down, we're aligned on that. That's the question that we're answering, or that's the study that he wants to see, or do we feel confident that we can just run with it?
+April Liang | 33:42
+To Kevin or to Kevier to Eduardo to Kevin.
+Chukwuebuka Anyaegbuna | 33:44
+To Kevin. To Kevin. To Kevin.
+April Liang | 33:48
+Yeah, maybe you can just share the poster with him and say, "Hey, this seems very close to what you're looking for.
+Chukwuebuka Anyaegbuna | 33:52
+Okay. Yeah. Y yeah.
+April Liang | 33:56
+You know, we are working with Eduardo to replicate this for multiple languages and multiple models.
+Throw in a few nice words about Eduardo, because part of it is he's applying for cardiology and he'll be a chief resident next year. I told him, "Hey, this will really impress our division chief." Yeah, so I think that's that's.
+Chukwuebuka Anyaegbuna | 34:14
+Okay.
+April Liang | 34:15
+I don't want to say the quid pro quo here, but I did emphasize to him how important Kevin finds this and how he's the interim division chief. It's so great that Do is going to be a chief res goo.
+Chukwuebuka Anyaegbuna | 34:27
+[Laughter] Yeah.
+Natasha Steele | 34:28
+Round to April's point. I think it helps us engage Eduardo as a real partner in driving some of the heads-down work parts of this. So, agree with April saying what you're saying, Chuck, I would email Kevin, summarize this conversation, attach this poster, CC Eduardo, and just say he's already done some foundational work here.
+Chukwuebuka Anyaegbuna | 34:44
+Yeah.
+Natasha Steele | 34:50
+We're going to partner with him to expand to several more languages using the IH you know, patient education materials as you suggested. We should have a draft to you by whatever.
+Then, we'll see, obviously, you seeing me, April, Jonathan, and I think it'll be... I agree. Probably better to have Kevin just sign off on things before we put too much manpower towards it.
+But I think April and I are talking about Kevin Bingo with his buzzwords, and I patient translate. Patient education is one of those boxes on the bingo cards.
+Chukwuebuka Anyaegbuna | 35:25
+[Laughter].
+Natasha Steele | 35:26
+So.
+And then obviously, this works. So I think he'll be excited and kind of go over there and then to April's point around Eduardo. And the more he feels like, you know, there's this is in line with his goals.
+I think the better.
+Chukwuebuka Anyaegbuna | 35:42
+Okay.
+April Liang | 35:43
+Yeah, I think my... What I think I would need help with is actually interfacing with Do to make sure he feels supported because he did tell me.
+Chukwuebuka Anyaegbuna | 35:43
+Okay. Cool, yeah.
+April Liang | 35:52
+You know, he's been trying to publish. He's been trying to write up the.
+Like. Human translator part follow up to his like poster study that because the SM 1 got published but there he actually did engage some translators I think were something to do a human about no bilingual the bilingual provider 1.
+But anyway. So I just feel like he might be a little strapped. And. And I think we need to kind of work with them on how to, Likesel tape.
+Chukwuebuka Anyaegbuna | 36:22
+Sounds good. I think you guys know the system much better than anyone, certainly, so I feel like he'd be in good hands. Okay, but that's cool. It sounds like there's a win there, so I'll follow up after this and send a message to Kevin and CC you guys in.
+Okay, so that's that study. So, Eduardo's study, and then the main people, Eduardo will let Eduardo run with that. I can help as much as physically possible, or we can co-run it. I don't know anything about NLP metrics, so I'll have to rely on him for that.
+But yeah, happy if Kevin signs that off to run with that he.
+Natasha Steele | 37:04
+Yeah, that sounds great. Just quickly because I know April, you have to leave. Is there... I want to make sure we... And I think we've been doing this, but just in terms of collaboration, capacity building with the interpretation translation service team between Erin and Johanna, do we feel like we should put that on pause? Just while we bang out this part to fulfill Kevin before the December holidays and then revisit it? Do we feel like we should move forward on both work streams?
+Because I feel like that's a whole other... Never mind my patient comprehension or our baseline data from what language instructions are actually in. That's like that would be a whole other project. April, what do you...? April's gone, chap, what you thank.
+Chukwuebuka Anyaegbuna | 38:02
+[Laughter] I think she's on me, but yeah, maybe she's doing... I'll just start somebody, that sounds sensible. I think, yeah.
+April Liang | 38:12
+Sorry my earphone died and then I got another surprise discharge, so I'm discharging six folks today, so wish me luck.
+Chukwuebuka Anyaegbuna | 38:20
+My God. My God. I have nothing much to add. It seems like Erin and Jonathan are off. Really?
+So I think if we get this squared off before Christmas, then we can start again with them in the new year.
+Natasha Steele | 38:36
+I think that sounds good. April? What? Are you...? I was just saying because I know we have this thread with interpretation translation services and they want to move forward with us. So maybe we just table it until we get this done.
+And, you know, between now and the first couple of weeks of December are going to be such a show that it's going to be January first before we know it. Then we revisit with them. The other thing, let's make sure you know and we're on board with things.
+But if you feel like Chuck, if you want more technical help or assistance in pushing this project forward, this one just across languages and LMS for the semantic stuff.
+Chukwuebuka Anyaegbuna | 39:15
+He yeah, that makes sense.
+Natasha Steele | 39:16
+We should see if Jerry... And I'm sure he will. Would want to be involved.
+Chukwuebuka Anyaegbuna | 39:25
+Let will message him separately to the Kevin message and CC you guys and say, "Ask if he's keen to collaborate on this one, and, yeah, maybe at a later date, we can decide what we do with the other project.
+Natasha Steele | 39:49
+Yeah, I think that makes sense.
+Chukwuebuka Anyaegbuna | 39:50
+Yeah, okay, cool. April, anything more from your side?
+April Liang | 40:00
+No, sorry, I kind of zoned out towards the end there, but yeah, it sounds like we're saying maybe Jerry, Chuck, if you don't have bandwidth, just Supervisor Eduardo, maybe Jerry can help. Supervisor Eduardo, is that what we were saying?
+Chukwuebuka Anyaegbuna | 40:13
+Nope, I'll be there.
+Natasha Steele | 40:13
+Just Jerry is another, like, technically trained person who can help push this forward. Not mutually exclusive with Eduardo. I just particularly if we're going across ten LMS and eight languages like I think it might be helpful to divide.
+April Liang | 40:24
+Every I access. It's really fast. Natasha.
+Natasha Steele | 40:27
+Cool.
+April Liang | 40:28
+Cool, should be yeah. I don't know if they have API access though.
+Chukwuebuka Anyaegbuna | 40:30
+Yeah, I have API access, but it's not the latest model, so I don't know, it's like I think the last was like GPT 5, like it still has like sun at 3.7.
+April Liang | 40:32
+I wonder if a dorno just literally, like, manually plugged and chugged, but it's okay. Yeah, Chuck, I was gonna say you have API access through Jonathan's lab now, right?
+Chukwuebuka Anyaegbuna | 40:51
+It's the, like, secure GPDA PI key that I have.
+April Liang | 40:52
+Yeah, okay, well.
+Chukwuebuka Anyaegbuna | 40:56
+Yeah. Do you have?
+Natasha Steele | 40:57
+Do you have a different set of access.
+April Liang | 40:58
+April? No, I don't even have access to API.
+Chukwuebuka Anyaegbuna | 40:59
+Yeah.
+April Liang | 41:03
+Yeah, I don't think I mean, I might do Jonathan, but I'm never explored it.
+Chukwuebuka Anyaegbuna | 41:09
+Okay yes I'll him.
+April Liang | 41:09
+I mean, it would just be for Jonathan it's the same exact stuff.
+Natasha Steele | 41:13
+Do we want to? Ing. Does Johnson have any other way to get us a more updated set of.
+April Liang | 41:23
+Okay, yeah, sometimes Jonathan will just ask because the API is through a different group, and he can just ask for access to updated models sometimes. But, yeah, it's not totally in his control.
+Chukwuebuka Anyaegbuna | 41:33
+Okay.
+Natasha Steele | 41:36
+Okay. All right, Chuck, do you feel like things are a little more crystallized or do you have a better sense of next steps?
+Chukwuebuka Anyaegbuna | 41:45
+Yes I think, yeah, sorry, for dumping this. I think it was just when someone in the moment takes it down a different stream, it's like, "Okay, how are we going to prioritize this?
+Natasha Steele | 41:55
+Hey.
+Chukwuebuka Anyaegbuna | 41:57
+So no, this is super helpful. I'm clear on the next steps. I'm going to ping Kevin, Jerry, and I'll speak to Jonathan about the API access. I think that's it. You guys will be CC'd, so all good?
+Natasha Steele | 42:10
+Okay, great. And then, in the meantime, I'll take a look at the shortened version of the manuscript of the three of us for our perspective on this.
+Chukwuebuka Anyaegbuna | 42:17
+Yeah, I sent it already.
+Natasha Steele | 42:19
+And I would like to echo our conversation via text.
+I think you can send it out to folks for a final read, but you say it's the same thing. We just shortened it, no big changes.
+Chukwuebuka Anyaegbuna | 42:31
+I've sent it already, okay?
+Natasha Steele | 42:32
+Yeah, okay, great, perfect.
+Chukwuebuka Anyaegbuna | 42:33
+Yeah, I saw Ivonne on the document today for a hot minute, but no, I don't think people are, necessarily. I think people are busy.
+Natasha Steele | 42:36
+Yeah, I don't think people are going to, particularly for the holiday,
+and then.
+Chukwuebuka Anyaegbuna | 42:49
+Yeah.
+Natasha Steele | 42:50
+Yeah, it's definitely been today. There was an abstract deadline for a big conference. And so it was like a very big there were a lot of people doing a lot of work today. But I think that will slow tomorrow the next day.
+But I don't think April's on her eight-day stretch. So. And I'll be working all week. So consider us.
+Chukwuebuka Anyaegbuna | 43:09
+My God.
+Natasha Steele | 43:10
+Consider us.
+Chukwuebuka Anyaegbuna | 43:10
+[Laughter] God, you guys need to sleep.
+Natasha Steele | 43:11
+Open for business, well, eventually.
+Chukwuebuka Anyaegbuna | 43:15
+I don't know how you. That. [Laughter] Yeah.
+Yeah.
+Natasha Steele | 43:20
+All right, friends. April, good luck with your six discharges.
+Chukwuebuka Anyaegbuna | 43:24
+Good luck.
+April Liang | 43:24
+Thanks na bye.
+Natasha Steele | 43:26
+Hi I talked to you guys, right? bye.
+Chukwuebuka Anyaegbuna | 43:26
+By.

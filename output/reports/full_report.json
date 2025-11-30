@@ -1,0 +1,721 @@
+{
+  "generated_at": "2025-11-30T10:24:08.850382",
+  "total_evaluations": 384,
+  "models_evaluated": [
+    "gpt-5.1",
+    "gemini-3-pro",
+    "kimi-k2",
+    "claude-opus-4.5"
+  ],
+  "languages_evaluated": [
+    "vietnamese",
+    "chinese_simplified",
+    "korean",
+    "spanish",
+    "haitian_creole",
+    "russian",
+    "arabic",
+    "tagalog"
+  ],
+  "documents_evaluated": [
+    "RESP_001",
+    "DIAB_002",
+    "CARD_003",
+    "MED_001",
+    "SURG_002",
+    "SURG_001",
+    "CARD_004",
+    "EMER_001",
+    "DIAB_001",
+    "CARD_001",
+    "RESP_002",
+    "CARD_002"
+  ],
+  "summary_matrices": {
+    "composite_score": {
+      "matrix": {
+        "claude-opus-4.5": {
+          "arabic": 0.8889351493318415,
+          "chinese_simplified": 0.8607703659332339,
+          "haitian_creole": 0.9061270470103485,
+          "korean": 0.8590862525819836,
+          "russian": 0.8604504206733424,
+          "spanish": 0.9188465833533653,
+          "tagalog": 0.9067619808879903,
+          "vietnamese": 0.8779841227374868
+        },
+        "gemini-3-pro": {
+          "arabic": 0.8603333794593784,
+          "chinese_simplified": 0.8307872057483373,
+          "haitian_creole": 0.8521840375722373,
+          "korean": 0.81918856148406,
+          "russian": 0.824742188886981,
+          "spanish": 0.8943121417550876,
+          "tagalog": 0.8739897927172112,
+          "vietnamese": 0.8426655674349502
+        },
+        "gpt-5.1": {
+          "arabic": 0.8748491989083068,
+          "chinese_simplified": 0.8480655376655577,
+          "haitian_creole": 0.8923091566336027,
+          "korean": 0.8356828925510823,
+          "russian": 0.8536957344722477,
+          "spanish": 0.8903995964080814,
+          "tagalog": 0.8880526348141298,
+          "vietnamese": 0.8723121045961798
+        },
+        "kimi-k2": {
+          "arabic": 0.858759509500297,
+          "chinese_simplified": 0.8378779972352992,
+          "haitian_creole": 0.8419698956775792,
+          "korean": 0.8076512597616005,
+          "russian": 0.8136922373435473,
+          "spanish": 0.8787685138532608,
+          "tagalog": 0.8686191115130656,
+          "vietnamese": 0.8397068978145166
+        }
+      },
+      "models": [
+        "claude-opus-4.5",
+        "gemini-3-pro",
+        "gpt-5.1",
+        "kimi-k2"
+      ],
+      "languages": [
+        "arabic",
+        "chinese_simplified",
+        "haitian_creole",
+        "korean",
+        "russian",
+        "spanish",
+        "tagalog",
+        "vietnamese"
+      ],
+      "metric": "composite_score"
+    },
+    "bertscore_f1": {
+      "matrix": {
+        "claude-opus-4.5": {
+          "arabic": 0.9711883415778478,
+          "chinese_simplified": 0.9643870989481608,
+          "haitian_creole": 0.9794587989648184,
+          "korean": 0.9632696857055029,
+          "russian": 0.9653218388557434,
+          "spanish": 0.9851500590642294,
+          "tagalog": 0.9794907619555792,
+          "vietnamese": 0.9742334634065628
+        },
+        "gemini-3-pro": {
+          "arabic": 0.9392301191886266,
+          "chinese_simplified": 0.9320045610268911,
+          "haitian_creole": 0.9373085995515188,
+          "korean": 0.9342574526866277,
+          "russian": 0.9368975212176641,
+          "spanish": 0.9581400603055954,
+          "tagalog": 0.9504730850458145,
+          "vietnamese": 0.9422678997119268
+        },
+        "gpt-5.1": {
+          "arabic": 0.950635145107905,
+          "chinese_simplified": 0.9405869295199712,
+          "haitian_creole": 0.9554182837406794,
+          "korean": 0.933021123210589,
+          "russian": 0.9522160838047663,
+          "spanish": 0.961356520652771,
+          "tagalog": 0.9560355742772421,
+          "vietnamese": 0.9556755324204763
+        },
+        "kimi-k2": {
+          "arabic": 0.953428253531456,
+          "chinese_simplified": 0.9511291037003199,
+          "haitian_creole": 0.9439690460761389,
+          "korean": 0.9410848865906397,
+          "russian": 0.9426348606745402,
+          "spanish": 0.9616110970576605,
+          "tagalog": 0.9556428541739782,
+          "vietnamese": 0.9525100936492285
+        }
+      },
+      "models": [
+        "claude-opus-4.5",
+        "gemini-3-pro",
+        "gpt-5.1",
+        "kimi-k2"
+      ],
+      "languages": [
+        "arabic",
+        "chinese_simplified",
+        "haitian_creole",
+        "korean",
+        "russian",
+        "spanish",
+        "tagalog",
+        "vietnamese"
+      ],
+      "metric": "bertscore_f1"
+    },
+    "bleu": {
+      "matrix": {
+        "claude-opus-4.5": {
+          "arabic": 65.21080333629443,
+          "chinese_simplified": 52.963995327298555,
+          "haitian_creole": 71.58286836592715,
+          "korean": 51.600424187450734,
+          "russian": 54.41753174853448,
+          "spanish": 76.73282267771704,
+          "tagalog": 73.5266977353005,
+          "vietnamese": 61.492671719249294
+        },
+        "gemini-3-pro": {
+          "arabic": 55.896229381794306,
+          "chinese_simplified": 43.983563888111235,
+          "haitian_creole": 51.978856572860316,
+          "korean": 38.807623272656315,
+          "russian": 43.07356352886825,
+          "spanish": 68.35135671040831,
+          "tagalog": 63.56959987088033,
+          "vietnamese": 50.335103989056684
+        },
+        "gpt-5.1": {
+          "arabic": 60.99839985865118,
+          "chinese_simplified": 49.18306122992446,
+          "haitian_creole": 66.83277953698551,
+          "korean": 44.549079688290846,
+          "russian": 53.123800801971,
+          "spanish": 69.09189670541927,
+          "tagalog": 68.00742610830768,
+          "vietnamese": 60.71471880841934
+        },
+        "kimi-k2": {
+          "arabic": 53.3891111383469,
+          "chinese_simplified": 44.7683824086141,
+          "haitian_creole": 49.55283455775599,
+          "korean": 33.370285577689444,
+          "russian": 39.78171286694072,
+          "spanish": 60.831748467789794,
+          "tagalog": 60.99319519541403,
+          "vietnamese": 49.143717996001435
+        }
+      },
+      "models": [
+        "claude-opus-4.5",
+        "gemini-3-pro",
+        "gpt-5.1",
+        "kimi-k2"
+      ],
+      "languages": [
+        "arabic",
+        "chinese_simplified",
+        "haitian_creole",
+        "korean",
+        "russian",
+        "spanish",
+        "tagalog",
+        "vietnamese"
+      ],
+      "metric": "bleu"
+    },
+    "chrf": {
+      "matrix": {
+        "claude-opus-4.5": {
+          "arabic": 82.27312888275364,
+          "chinese_simplified": 76.21131966505428,
+          "haitian_creole": 85.23320310619316,
+          "korean": 75.51059447715065,
+          "russian": 75.3871168267268,
+          "spanish": 88.06270663318332,
+          "tagalog": 86.63290554048639,
+          "vietnamese": 79.32847466944554
+        },
+        "gemini-3-pro": {
+          "arabic": 79.0448183924375,
+          "chinese_simplified": 72.59636517666401,
+          "haitian_creole": 76.67893135331647,
+          "korean": 68.48648853389588,
+          "russian": 69.64243838082956,
+          "spanish": 85.61768938663882,
+          "tagalog": 83.12568900894648,
+          "vietnamese": 73.77235655434374
+        },
+        "gpt-5.1": {
+          "arabic": 81.50820324534848,
+          "chinese_simplified": 75.48371732005265,
+          "haitian_creole": 84.74052507800789,
+          "korean": 73.76402818372375,
+          "russian": 74.91494932667032,
+          "spanish": 81.65964406230846,
+          "tagalog": 84.53822849416696,
+          "vietnamese": 80.17125777654867
+        },
+        "kimi-k2": {
+          "arabic": 76.9219290875521,
+          "chinese_simplified": 71.28032192749842,
+          "haitian_creole": 74.7812531322562,
+          "korean": 63.61623053049644,
+          "russian": 67.28016338682107,
+          "spanish": 80.51105388853436,
+          "tagalog": 81.12855253322255,
+          "vietnamese": 72.89119430232329
+        }
+      },
+      "models": [
+        "claude-opus-4.5",
+        "gemini-3-pro",
+        "gpt-5.1",
+        "kimi-k2"
+      ],
+      "languages": [
+        "arabic",
+        "chinese_simplified",
+        "haitian_creole",
+        "korean",
+        "russian",
+        "spanish",
+        "tagalog",
+        "vietnamese"
+      ],
+      "metric": "chrf"
+    },
+    "labse_similarity": {
+      "matrix": {
+        "claude-opus-4.5": {
+          "arabic": 0.9063588678836823,
+          "chinese_simplified": 0.8850996643304825,
+          "haitian_creole": 0.9253268390893936,
+          "korean": 0.8931691149870554,
+          "russian": 0.881626029809316,
+          "spanish": 0.9278432875871658,
+          "tagalog": 0.9056875507036845,
+          "vietnamese": 0.8877095431089401
+        },
+        "gemini-3-pro": {
+          "arabic": 0.899536649386088,
+          "chinese_simplified": 0.8683734883864721,
+          "haitian_creole": 0.904074082771937,
+          "korean": 0.8724618405103683,
+          "russian": 0.8605848997831345,
+          "spanish": 0.9121723075707754,
+          "tagalog": 0.8813991993665695,
+          "vietnamese": 0.8727698028087616
+        },
+        "gpt-5.1": {
+          "arabic": 0.9090816080570221,
+          "chinese_simplified": 0.8899000038703283,
+          "haitian_creole": 0.9261859456698099,
+          "korean": 0.8836089968681335,
+          "russian": 0.8830699374278387,
+          "spanish": 0.9277814080317816,
+          "tagalog": 0.8941338409980139,
+          "vietnamese": 0.8870414942502975
+        },
+        "kimi-k2": {
+          "arabic": 0.9090872804323832,
+          "chinese_simplified": 0.8846701085567474,
+          "haitian_creole": 0.9185599237680435,
+          "korean": 0.8805153965950012,
+          "russian": 0.8710981955130895,
+          "spanish": 0.920716866850853,
+          "tagalog": 0.8792760322491328,
+          "vietnamese": 0.8812564760446548
+        }
+      },
+      "models": [
+        "claude-opus-4.5",
+        "gemini-3-pro",
+        "gpt-5.1",
+        "kimi-k2"
+      ],
+      "languages": [
+        "arabic",
+        "chinese_simplified",
+        "haitian_creole",
+        "korean",
+        "russian",
+        "spanish",
+        "tagalog",
+        "vietnamese"
+      ],
+      "metric": "labse_similarity"
+    }
+  },
+  "suitability_distribution": {
+    "gpt-5.1": {
+      "spanish": {
+        "suitable": 11,
+        "caution": 1
+      },
+      "chinese_simplified": {
+        "suitable": 12
+      },
+      "vietnamese": {
+        "suitable": 12
+      },
+      "tagalog": {
+        "suitable": 12
+      },
+      "russian": {
+        "suitable": 12
+      },
+      "arabic": {
+        "suitable": 12
+      },
+      "korean": {
+        "suitable": 12
+      },
+      "haitian_creole": {
+        "suitable": 12
+      }
+    },
+    "claude-opus-4.5": {
+      "spanish": {
+        "suitable": 12
+      },
+      "chinese_simplified": {
+        "suitable": 12
+      },
+      "vietnamese": {
+        "suitable": 12
+      },
+      "tagalog": {
+        "suitable": 12
+      },
+      "russian": {
+        "suitable": 12
+      },
+      "arabic": {
+        "suitable": 12
+      },
+      "korean": {
+        "suitable": 12
+      },
+      "haitian_creole": {
+        "suitable": 12
+      }
+    },
+    "gemini-3-pro": {
+      "spanish": {
+        "suitable": 12
+      },
+      "chinese_simplified": {
+        "suitable": 11,
+        "caution": 1
+      },
+      "vietnamese": {
+        "suitable": 12
+      },
+      "tagalog": {
+        "suitable": 12
+      },
+      "russian": {
+        "suitable": 12
+      },
+      "arabic": {
+        "suitable": 12
+      },
+      "korean": {
+        "suitable": 12
+      },
+      "haitian_creole": {
+        "suitable": 12
+      }
+    },
+    "kimi-k2": {
+      "spanish": {
+        "suitable": 12
+      },
+      "chinese_simplified": {
+        "suitable": 12
+      },
+      "vietnamese": {
+        "suitable": 11,
+        "caution": 1
+      },
+      "tagalog": {
+        "suitable": 12
+      },
+      "russian": {
+        "suitable": 9,
+        "caution": 3
+      },
+      "arabic": {
+        "suitable": 12
+      },
+      "korean": {
+        "caution": 1,
+        "suitable": 11
+      },
+      "haitian_creole": {
+        "suitable": 11,
+        "caution": 1
+      }
+    }
+  },
+  "rankings": {
+    "by_model": [
+      {
+        "model": "claude-opus-4.5",
+        "avg_score": 0.8848702403136991,
+        "n": 96
+      },
+      {
+        "model": "gpt-5.1",
+        "avg_score": 0.8694208570061486,
+        "n": 96
+      },
+      {
+        "model": "gemini-3-pro",
+        "avg_score": 0.8497753593822804,
+        "n": 96
+      },
+      {
+        "model": "kimi-k2",
+        "avg_score": 0.8433806778373958,
+        "n": 96
+      }
+    ],
+    "by_language": [
+      {
+        "language": "spanish",
+        "avg_score": 0.8955817088424488,
+        "n": 48,
+        "language_name": "Spanish"
+      },
+      {
+        "language": "tagalog",
+        "avg_score": 0.8843558799830993,
+        "n": 48,
+        "language_name": "Tagalog/Filipino"
+      },
+      {
+        "language": "haitian_creole",
+        "avg_score": 0.8731475342234419,
+        "n": 48,
+        "language_name": "Haitian Creole"
+      },
+      {
+        "language": "arabic",
+        "avg_score": 0.8707193092999559,
+        "n": 48,
+        "language_name": "Arabic"
+      },
+      {
+        "language": "vietnamese",
+        "avg_score": 0.8581671731457834,
+        "n": 48,
+        "language_name": "Vietnamese"
+      },
+      {
+        "language": "chinese_simplified",
+        "avg_score": 0.8443752766456071,
+        "n": 48,
+        "language_name": "Chinese (Simplified)"
+      },
+      {
+        "language": "russian",
+        "avg_score": 0.8381451453440296,
+        "n": 48,
+        "language_name": "Russian"
+      },
+      {
+        "language": "korean",
+        "avg_score": 0.8304022415946817,
+        "n": 48,
+        "language_name": "Korean"
+      }
+    ],
+    "by_combination": [
+      {
+        "combination": "claude-opus-4.5|spanish",
+        "model": "claude-opus-4.5",
+        "language": "spanish",
+        "avg_score": 0.9188465833533653,
+        "n": 12
+      },
+      {
+        "combination": "claude-opus-4.5|tagalog",
+        "model": "claude-opus-4.5",
+        "language": "tagalog",
+        "avg_score": 0.9067619808879903,
+        "n": 12
+      },
+      {
+        "combination": "claude-opus-4.5|haitian_creole",
+        "model": "claude-opus-4.5",
+        "language": "haitian_creole",
+        "avg_score": 0.9061270470103485,
+        "n": 12
+      },
+      {
+        "combination": "gemini-3-pro|spanish",
+        "model": "gemini-3-pro",
+        "language": "spanish",
+        "avg_score": 0.8943121417550876,
+        "n": 12
+      },
+      {
+        "combination": "gpt-5.1|haitian_creole",
+        "model": "gpt-5.1",
+        "language": "haitian_creole",
+        "avg_score": 0.8923091566336027,
+        "n": 12
+      },
+      {
+        "combination": "gpt-5.1|spanish",
+        "model": "gpt-5.1",
+        "language": "spanish",
+        "avg_score": 0.8903995964080814,
+        "n": 12
+      },
+      {
+        "combination": "claude-opus-4.5|arabic",
+        "model": "claude-opus-4.5",
+        "language": "arabic",
+        "avg_score": 0.8889351493318415,
+        "n": 12
+      },
+      {
+        "combination": "gpt-5.1|tagalog",
+        "model": "gpt-5.1",
+        "language": "tagalog",
+        "avg_score": 0.8880526348141298,
+        "n": 12
+      },
+      {
+        "combination": "kimi-k2|spanish",
+        "model": "kimi-k2",
+        "language": "spanish",
+        "avg_score": 0.8787685138532608,
+        "n": 12
+      },
+      {
+        "combination": "claude-opus-4.5|vietnamese",
+        "model": "claude-opus-4.5",
+        "language": "vietnamese",
+        "avg_score": 0.8779841227374868,
+        "n": 12
+      }
+    ],
+    "worst_combinations": [
+      {
+        "combination": "gemini-3-pro|vietnamese",
+        "model": "gemini-3-pro",
+        "language": "vietnamese",
+        "avg_score": 0.8426655674349502,
+        "n": 12
+      },
+      {
+        "combination": "kimi-k2|haitian_creole",
+        "model": "kimi-k2",
+        "language": "haitian_creole",
+        "avg_score": 0.8419698956775792,
+        "n": 12
+      },
+      {
+        "combination": "kimi-k2|vietnamese",
+        "model": "kimi-k2",
+        "language": "vietnamese",
+        "avg_score": 0.8397068978145166,
+        "n": 12
+      },
+      {
+        "combination": "kimi-k2|chinese_simplified",
+        "model": "kimi-k2",
+        "language": "chinese_simplified",
+        "avg_score": 0.8378779972352992,
+        "n": 12
+      },
+      {
+        "combination": "gpt-5.1|korean",
+        "model": "gpt-5.1",
+        "language": "korean",
+        "avg_score": 0.8356828925510823,
+        "n": 12
+      },
+      {
+        "combination": "gemini-3-pro|chinese_simplified",
+        "model": "gemini-3-pro",
+        "language": "chinese_simplified",
+        "avg_score": 0.8307872057483373,
+        "n": 12
+      },
+      {
+        "combination": "gemini-3-pro|russian",
+        "model": "gemini-3-pro",
+        "language": "russian",
+        "avg_score": 0.824742188886981,
+        "n": 12
+      },
+      {
+        "combination": "gemini-3-pro|korean",
+        "model": "gemini-3-pro",
+        "language": "korean",
+        "avg_score": 0.81918856148406,
+        "n": 12
+      },
+      {
+        "combination": "kimi-k2|russian",
+        "model": "kimi-k2",
+        "language": "russian",
+        "avg_score": 0.8136922373435473,
+        "n": 12
+      },
+      {
+        "combination": "kimi-k2|korean",
+        "model": "kimi-k2",
+        "language": "korean",
+        "avg_score": 0.8076512597616005,
+        "n": 12
+      }
+    ]
+  },
+  "by_category": {
+    "cardiology": {
+      "mean": 0.86301248389917,
+      "median": 0.8640657070187641,
+      "std": 0.038029904071096354,
+      "min": 0.6639566290396088,
+      "max": 0.9391273589055278,
+      "n": 128
+    },
+    "diabetes": {
+      "mean": 0.8734825126151313,
+      "median": 0.8765929562596733,
+      "std": 0.032475069967569846,
+      "min": 0.8146383079990372,
+      "max": 0.935128037458501,
+      "n": 64
+    },
+    "respiratory": {
+      "mean": 0.8569031967297236,
+      "median": 0.8566546539658539,
+      "std": 0.0410512335265335,
+      "min": 0.7130175561811417,
+      "max": 0.9216958897589432,
+      "n": 64
+    },
+    "medications": {
+      "mean": 0.8577367158919313,
+      "median": 0.8578457125213133,
+      "std": 0.036124771663600765,
+      "min": 0.767179302729609,
+      "max": 0.9137489789193619,
+      "n": 32
+    },
+    "emergency_care": {
+      "mean": 0.858961194980431,
+      "median": 0.8577114587852507,
+      "std": 0.025556925117602818,
+      "min": 0.8176120078442224,
+      "max": 0.915847962537037,
+      "n": 32
+    },
+    "surgical": {
+      "mean": 0.8564110692299096,
+      "median": 0.8568688126174883,
+      "std": 0.028928781374505518,
+      "min": 0.794890593743101,
+      "max": 0.9066748647710765,
+      "n": 64
+    }
+  }
+}

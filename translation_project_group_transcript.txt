@@ -1,0 +1,297 @@
+Chukwuebuka Anyaegbuna | 00:12
+Zero.
+He brother.
+Eduardo | 00:22
+Hi.
+Chukwuebuka Anyaegbuna | 00:23
+Hey, how's it going?
+Eduardo | 00:25
+Got a new.
+Chukwuebuka Anyaegbuna | 00:26
+Yeah, not too bad, can't complain. How's the clinic? Are you in for you?
+Eduardo | 00:29
+I was. It was good. I had like three patients only, so it wasn't bad. Yeah, I'm internal medicine, so 30 years of internal medicine, yeah, and your background, okay, awesome.
+Chukwuebuka Anyaegbuna | 00:38
+Nice, what specialty do you remind me of? Okay, nice, very cool. Yeah, MD in the UK, built a bunch of digital health products in the UK and doing a Hawking scholarship this year.
+Yeah.
+Ivan Lopez | 01:00
+Okay.
+Eduardo | 01:00
+Cool, are you attending at Stanford right now?
+Chukwuebuka Anyaegbuna | 01:03
+No, I am.
+Eduardo | 01:05
+Okay, yeah.
+Chukwuebuka Anyaegbuna | 01:05
+I haven't done clinical practice since 2020 when I did a covert shift, and it was at that time when everyone was so scared of COVID that no one came into the hospital. So I was just wandering around and basically it has. Matsu, just having the time of my life.
+Yeah, they make it quite hard here, I think.
+Eduardo | 01:21
+Very good. Do you think you'll go back to some form of clinical work or know?
+Chukwuebuka Anyaegbuna | 01:28
+I think because I'd have to do step one, two and three and then restart the whole thing. So, yeah, I think probably industry is the best way to go from here.
+Eduardo | 01:38
+Yeah.
+Chukwuebuka Anyaegbuna | 01:43
+Let wait till more and then I'll get you to do a proper intro to everyone and then everyone else can do intro in the chat. Actually, while we're still waiting on people, Jerry. Do you want to do an sure. In Ivanasa?
+Jerry Liu | 01:55
+Yeah. Sorry. Okay, I'm Jerry, I'm one of the hospitalists at the surgical management group Joyce Stanford in September, and yeah, I did an informatics fellowship at the IDMZ after I graduated from residency.
+Eduardo | 02:18
+Awesome. Yeah.
+Chukwuebuka Anyaegbuna | 02:21
+Avon.
+Ivan Lopez | 02:26
+Hey, can you hear me? Yes. Say hi, I am Eduardo? Yes, nice to meet you. I'm an MD Ph.D. student at Stanford, I'm in my fifth year, third year of the Ph.D. cool.
+Eduardo | 02:50
+So sorry, you said which year of med school.
+Ivan Lopez | 02:54
+At fifth year at Stanford, so third year Ph.D. Second year MD, okay.
+Eduardo | 03:01
+Okay, you're thinking internal medicine.
+Ivan Lopez | 03:04
+Yeah, I'm not sure. Okay, most likely.
+Eduardo | 03:06
+Yeah, okay, cool.
+Ahmed | 03:08
+Yeah, she's.
+Chukwuebuka Anyaegbuna | 03:10
+Who am I? Joa?
+Ahmed | 03:14
+Hello, my name's Ahmed. I'm a M.D., M.B.A. student, I'm four out of five years currently interested in internal medicine and cardiology.
+Eduardo | 03:24
+Okay, cool, I'm interested in cardiology, so we can chat about that.
+Ahmed | 03:29
+Yeah, definitely, nice to meet you.
+Eduardo | 03:33
+Yeah.
+Chukwuebuka Anyaegbuna | 03:34
+Cool. I think everyone else will have to join the chat, but, Eduardo, if you want to introduce yourself, then I can run through the agenda for today's meeting.
+Eduardo | 03:43
+So I'm a 30-year medicine resident, interested clinically in cardiology, more research-wise, it's twofold. One is with wearable devices. So I work with the researchers at Stanford who worked with the app who ran the Apple Heart study.
+So we're doing some sub-analysis there and at the same time, interested in the intersection of AI and medicine. I work with other faculty who are running some AI trials at Stanford, and I'm helping them there. I'm interested in the translation word because my first language is Spanish, and when I was an intern year, I saw with the rise of GPT that there's a potential use there to translate discharge material.
+Yeah, next year I'll be doing a chief here and then I'll be applying to cardiology.
+Chukwuebuka Anyaegbuna | 04:43
+Amazing. Great. Wonderful to have you on board. I'll let the others trickle in over time and then we can do the introductions in the chat. I'm so sorry, first of all, for missing the last couple of weeks.
+I've been in London, Barcelona, Boston, et cetera for conferences. Actually, London was just going back home for a weekend. But yeah, I've been in a couple of conferences, but I'm pretty good from now till about March in terms of doing additional stuff for the fellowship.
+So I should be back. But it sounds like you had a productive meeting. Then I obviously canceled last week. So the plan for today is to go through... Hopefully we can get it done in 25 minutes. Stephen, and we've got Ryan on board as well. Stephen, do you want to... You missed the intro from Eduardo, but you want to give him an intro on your side?
+Do you want to put your information in the chat for the new people?
+Stephen Ma | 05:42
+Yeah, sure. Hi, I'm Stephen, and I'm a chief here. A recent graduate of the CI fellowship. I'm medical struct for Alex's evaluation of new technologies. I'm interested in language equity?
+Chukwuebuka Anyaegbuna | 05:58
+Amazing. And you know April Eduardo, so I won't force her to do that. April is turning up as Ryan today, but has switched it very quickly to April. I appreciate that. Cool. So, the goal of today and kind of do some updates and introductions, talk through some study design stuff, talk about document selection, and recruitment strategy.
+If we have time at the end, there's a lot to fit in and talk about. Eduardo's poster, for that you... I think you presented at AMI or was just a topic of conversation. Okay. Presented. Amy, I see you nod.
+April Liang | 06:29
+Yeah, you presented at AMI and at the QI.
+Chukwuebuka Anyaegbuna | 06:30
+Yeah, amazing, great stuff.
+April Liang | 06:32
+Symposium, and it's actually published in E-Strim, so good job, Eduardo. Thank yeah.
+natasha steele | 06:39
+Amazing. Chuck, can I add one more really brief agenda item?
+Chukwuebuka Anyaegbuna | 06:42
+Of course, I didn't see you come in.
+natasha steele | 06:43
+Okay, hi everyone. Yeah, sorry. I apologize for being camera.
+Chukwuebuka Anyaegbuna | 06:46
+Yeah.
+natasha steele | 06:46
+I'm driving my kid. But, there is an opportunity for a really low-hanging fruit study using the same realm that we've been talking about around AI translation with discharge instructions that I would love to pitch to you guys. It just came across my desk today.
+So we can talk really briefly about it, but essentially, all the data is there, and it would be very novel. So we can talk more about it at the end if there's of.
+Chukwuebuka Anyaegbuna | 07:15
+Yeah, let's do that. Let's do it here. I can't do stuff in public, but an AI translation novel study, we can leave it looking a bit ugly for now. Okay, cool. So I think just level seconds there's been a couple of weeks, and I think the last time we talked about it, we're thinking about comparing three LMS versus professional translation, it was Gmini, Claude Chat, and BT. If one made a good point that to add something open source, and I think there's a bunch of models that are the frontier/cost tradeoff that are doing pretty well.
+So I think Quen was the one that you were thinking about. I think that open-weight model, not necessarily open source. And so when I put that back into Claude to do a power calculation, it gives us now that we need to do 790 participants as compared to 380, which was the first one. Obviously, that's a huge number. Yes, and that was only like 68% powered.
+So I guess the question is, I've still pinged Alter Bryan to see if we can confirm the calculations because it's beyond me, but I don't... Yeah, I'm wondering what people's thoughts on this.
+April Liang | 08:46
+Yeah, sorry, what if our actual outcome and the effect size... Did we land on a comprehension metric 'cause you.
+Chukwuebuka Anyaegbuna | 08:55
+It was. Yeah, it was the last time we talked about it. It was non-inferiority between the models and professional translation, so less than 10% difference. But I think Brian had some questions around the fact that if it's a comprehension, the idea was that we were going to ask them five questions and actually within five questions, a 10% difference like it's...
+Yeah, he said the data was going to be very clumpy. And so I think there was an open question about whether we just make it pass or fail and rather than have the like, 10% difference. But I don't... Yeah, I was... Was there more discussion on that last week?
+Because if it is more pass-fail rather than like you need to get four out of five of the questions right? I think that does change the calculations.
+April Liang | 09:54
+So I wonder. I guess I'm just not sure what conversations have been had, but, just wanting to make sure. So our comprehension metric is that a binary, yes-no, or is it a multiple-choice? Or is it a free-text response that the participant has to type and then like a human has to evaluate to be like, okay, they did actually understand what was asked of them.
+Because I think the scoring for all those will be very different.
+Chukwuebuka Anyaegbuna | 10:23
+Yeah. So I think the latest, but keen to understand what happened last week, the latest was that there would be five questions, and yeah, it would be multiple-choice responses.
+You would have to get... And we would compare the number of multiple-choice questions they got right in the professional translation as compared to the other models. And I don't know if we chose a particular threshold that four out of five meant it was good or whatever.
+I think it was just multiple-choice questions and five facts from the paper from the discharge instruction, and that was it. Not free text. Not... I'm not sure what the other one was.
+Ivan Lopez | 11:12
+I was unable to make it last week, but I think I might be... I think we should probably talk about what our goal is for this study. Because I think when I was originally thinking about what we would be doing, it would be more so like establishing an evaluation metric.
+With that, I don't think we necessarily need... I guess we don't necessarily need a suite of models that we're going to test because we don't... I don't think our goal was to say that GPT-5 is producing translations that are well understood by humans, or like Gemini, producing translations that are well understood by humans, but more so, this is a promise. This is a way we can evaluate translation models.
+This should probably be considered by health systems when they're thinking about how they want to evaluate whether an LLM is going to be a good fit for their translation needs.
+Chukwuebuka Anyaegbuna | 12:40
+Okay, that's interesting. Okay, so this is... I can flag up what we talked about before and then maybe we just need to change the research questions because that's a very good point.
+So I think we ended up at something closer to... These were all tier one languages. And speaking of patients, they demonstrate non-inferior comprehension of Frontier LLM-translated discharge instructions compared to professionally translated instructions.
+And a secondary question was: does comprehension differ across the Frontier LLM? Could we... The question now is actually we just want an evaluation framework, and we're not actually that concerned with this because I think it's probably a good question to answer.
+Before we deep dive on all of the rest of it.
+Ivan Lopez | 13:34
+Yeah, I think it'd be interesting to hear what others think. The only reason why I'm not as excited about doing a benchmarking, more thinking about evaluating the actual models, is because every few months, there's a new model. We're evaluating models now and then in a few months, they're going to come out with a newer version.
+So I think it's more... Yeah, I just feel like if we shift the focus to designing a new evaluation metric that people can use to evaluate models in the future, it's a little bit better in terms of longevity. It stays more relevant.
+Ahmed | 14:12
+I think that that's something that we're thinking about in Dr. Lens's lab, who was thinking about the same questions. But for translation for like dermatological diseases, they were talking that was the biggest conversation. What are the metrics that we're assessing the translation on or the LLM translation on?
+So I think we talk about longevity. I think that is a big question that a lot of people are talking about. Obviously, there are different papers that try to assess that through different benchmarks.
+But I think it'll be interesting for us to do this because it'll be like you said, we can check out ChatGPT 5.1 right now, but then they're going to cut and release a new model, and that's the longevity of the paper. Would it not be there.
+Chukwuebuka Anyaegbuna | 15:04
+Hi Sonya, welcome. All good. If you haven't introduced people on the chat, please put it in the chat. But yeah, I completely agree. I mean, it's the question. I'm new to the academics, new to the academic scene. I
+find this all novel and interesting. But it's the thing that when I go to conferences, the question that always comes up is like, "Okay, the peer review process takes six to nine months. By the time you publish something, there's a new model that's come out."
+It's pretty existential for you guys, right? So I get it, I understand that, but I guess it's a good decision point to make now, which is, are we doing a patient comprehension aspect, which is this idea of everything else looks at linguistic accuracy, we need to test patient understanding? Are we actually doing a different study?
+This is the framework that we want to evaluate new models as they come onto the market to see whether they are suitable for patient translation because I think they are ultimately two different things.
+So I think this is the right group to make that distinction, and we'll run whichever one forward. It's just open to discussion about it.
+Jerry Liu | 16:15
+I am curious what Natasha and they are thinking. Cause I think operationally, it's makes more sense to kind of figure out whether it is doable because that seems like that's what like whether we can use LM to Translate.
+Because I think that's what Kevin wants.
+April Liang | 16:36
+Yeah, and we can have Edardo discuss briefly and talk about the portion more of Yvonne's point, like how are current models doing? But I like this idea of, can we basically come up with a patient comprehension, not a benchmark, but an evaluation framework that can persist across model evolution and changes in performance, right?
+My challenge is my question is, though, how do we evaluate the performance of our metric? Like, what is the gold standard then for patient comprehension? And how do we say, like, yes, this. You know, when we think about, like, survey instruments, right, we have to validate them. How would we validate our comprehension instrument?
+Like, what is what are we going to validate against?
+natasha steele | 17:32
+Yeah, super quickly to echo April's point, I agree. I think these two ideas aren't mutually exclusive. I totally agree with what folks are saying in terms of the longevity of anything we do with current models.
+I think Kevin wants that study. So if it's not the most... We have funding for it. So it's certainly feasible while we do things that we think are really interesting like this more benchmark around patient comprehension and that framework.
+But agree, April, that a really important thing for us to look into is going to be, "What is the gold standard?" and how do we go about designing this in a way that's scientifically rigorous? Bottom line, not mutually exclusive, but I would love to hear Eduardo some of the work that you presented this past week and then what your perspective is.
+Eduardo | 18:26
+Yeah, definitely. I think just to echo what both of you said. I think that setting a benchmark with a current model, I don't see an issue longitudinally if the model is old because across the literature, what we're seeing is that these models are only getting better.
+So having to go back and validate a new model because now GPT or OpenAI releases GPT-6, I mean, I'm not expecting the testing that I did was with GPT-4. I know with that GPT-5.1, right now, it's going to be better.
+So I would lean towards more creating a method or a framework to evaluate just large language models in general and having that robust framework of evaluating this as a product for translation, rather than testing each individual model and trying to publish that LLaMA or Gemini or something that is better than the other. I would just try to focus on the concept of Latin language models as translation and settlement, and whatever we publish, that's going to be the benchmark, right? We use GPT-5 or, I don't know, whichever model, all other models that we choose because they're only going to get better.
+That's my thought on the issue about longitudinally if a manuscript holds or not. But I can pause there while I make my presentation.
+Chukwuebuka Anyaegbuna | 20:02
+Yeah, I think these are all really good points, and good points in the chat if we develop a framework. One of the first things the framework would need to do would be to use these models anyway as part of the data that we are publishing.
+So yeah.
+April Liang | 20:22
+And Edardo, I know you're about to share your screen just to contextualize. For those of you who haven't heard Kevin say this, Kevin, as Natasha and Jerry have hinted at, is very interested in the idea of using automated metrics to assess the current landscape of LM translation performance.
+So, Eduardo brings with him a project that essentially does that. I think our idea would be to, we want to pursue the patient-centered, comprehension-based work that we're doing and satisfy Kevin's ask of us, "Hey, I really want to understand this."
+So, I'll let Doro present, but essentially, thinking about his ask, which is, can we use automated metrics to evaluate a number of LMs on a number of languages to understand current performance and whether there is an audit performance characteristic difference in digitally underrepresented languages for different models, et cetera?
+Eduardo | 21:32
+Yeah, perfect. Well, thank you, April. So, this project I started in my second half of entering year, we named it Latin, which is for Spanish Pulse or Beat, which stands for Large Language Models translation and Interpretation of Dishears Instructions for Cardiology patients, Spanish-speaking.
+So, I won't go over a bunch of background, but as we all know, Spanish-speaking physicians represent a minority in California. Despite the population being the minority in the next few years, this learning discordance leads to poor outcomes in non-English speakers.
+So, with that in mind, this was during the rise of GPT, and we were thinking about how we can leverage AI to improve the discharge process. Anecdotally, and I'm sure many of the clinicians here will agree, a bunch of my patients come to the clinic. They have discharge material in English, but they have no idea what happened in the hospital.
+So, we wanted to prove the gap with large language models because, although our translation services are amazing and great, there is a bottleneck. They can't discharge or provide translations in a timely manner because we oftentimes discharge patients on one day and then delay for three days. It's just not feasible for them to keep track of the discharges.
+So, we used GPT-4 and in-context learning, which, right now, is like the gold standard for prompt engineering, and we evaluated the translation using a host of different natural language processing metrics. This is new to the space and hasn't been seen in literature yet where natural language processing metrics are being used to evaluate translations for clinical purposes.
+So, that's why we chose so many different natural language processing metrics. Some are language-agnostic, meaning that you can evaluate how well the translation occurred across English and Spanish.
+Others are language-evaluation metrics, which are important to assess if there's any meaning loss between the translations. So, BLEURT, COMT, and same-language cross-language are the ones that you see on the bottom. BLEURT and COMT are language-agnostic, and you can measure lexical overlap, and I'll go through some examples.
+Semantic alignment is also used. Is the word-by-word meaning the same, or is the overall context of the sentence the same? Similarly, with cross-language metrics, we used an arbitrary score of 0.8 or 80, which is considered excellent. Again, this is all new to the literature, so it hasn't been validated as a patient-facing tool. This is more theoretical.
+So, just an example of how these natural language processing metrics work. This might not be new for many of you in the clinical informatics space, where, when I started, I had no idea what I was doing because I didn't have an informatics background.
+But you take a sentence in English and in Spanish. They are passed through a multilingual model. Then the model generates a list of numbers representing the sentence, meaning that's what we call embedding.
+Then the model uses code-similarity to compare how close the two embeddings are. So, an example of lexical alignment. He finished the job quickly or he finished the task quickly. A lexical metric like BLEU would penalize this change from "job" to "task," but we know, as humans, that this is essentially the same meaning since semantic alignment. He finished that job quickly versus he completed the work fast. It wouldn't be penalized by semantic metrics.
+So, with that background, we focused on 131 cardiology discharge documents. The focus on cardiology is twofold: I'm interested in cardiology. I'll be applying next year, and second, these admissions tend to be complicated because we often ask patients to self-titrate antibiotics, for example, to skip blood pressure medications depending on their systolic blood pressure.
+So, there are a lot of nuances around the discharge that is often lost during translation. These documents, and I have an example, they're very thorough. They explain, for example, what atrial fibrillation is, the treatment options, and post-care instructions.
+So, it's much more robust than the typical discharge instructions that we write at the time of discharge. Oftentimes, what clinicians actually write is two or three sentences. So, each document had an original English version. We call this the reference English, a professionally Spanish translation, which is provided by the company that provides these discharge documents.
+Then, we took the English version and we translated it using a large language model. That generated a large language model in Spanish. Then we back-translated the large language model back to reference English.
+Why did we do so? These translations... So, 1) comparing the reference Spanish to their reference English is the benchmark. The large language model Spanish is compared to the Spanish reference tests, how well the large language model translation compares to the professional one. The English large language model with the reference English is asking, "Does the back-translation preserve the original English?"
+Lastly, the large language model Spanish with the reference English is, "How well is the meaning transferred across languages?" This is an example of what I was mentioning of the translated documents.
+So, I want the left one to be in English and the right one in Spanish. This is just a very small snippet of what is often the case. Oftentimes, these documents are two or three pages pages.
+April Liang | 28:16
+So just to clarify, it looks like you were using the educational materials, not the physician-typed, like you were hospitalized for this reason. These are the medication changes.
+Eduardo | 28:26
+Exactly. This is exactly what we do. We do have a second part that wasn't part of this published paper. That we do use the clinician-written one, and I'll show some examples of that as well. But for the automated metrics, it was this.
+So, for the same language evaluation, as you can see, the lexical overlap... So, these numbers overhe, blue and cr f tend to be lower in quality, and we chose the arbitrary point A because their literature has not established that before.
+But the semantic similarity is quite high. And you can see the comparison here between the reference English versus the large language English, which is the same language evaluation. Very high scores in BERT score and in Comet.
+Then, comparing Spanish to the human version versus the large language model version, it was high. And then the cross-language evaluation, which was the more interesting one. I won't go over all the numbers, but essentially, I want to pinpoint these two because the first one establishes the human baseline right where the natural language processing metric is evaluating how similar the context of these sentences or the meaning of these sentences are.
+We can see that the AI version scored a little bit higher than the human version. Again, this is all theoretical. This doesn't mean anything without patient pacing, but at least we have a benchmark of how well these documents perform in light of these metrics.
+So this is an example that I took from the actual translations from the back translation. So the one on the right is an AI-generated text. The human wrote a review of how a healthy heart works, may help you understand heart failure and the reasons for your treatment plan. The large language model, which, arguably, I think it's a better sentence for patients, "Understanding how a healthy heart works can help you learn about heart failure in the basics of your treatment plan."
+So in conclusion, with this study, we say that large language model-generated Spanish translations of English research materials demonstrated high semantic alignment to the original legal sense text, matching or exceeding translation performance across key ANDLP metrics.
+However, we know that this is all theoretical AI. We were missing the human evaluation, and this is something that we haven't published yet, but we wanted to look at the readability, understandability, and actionability, and the harmfulness of these translations.
+So, of translations by large language models, not necessarily the documents that I just shared, just to establish a comparison with humans. For readability, we are looking at scores that have been violated clinically.
+So, Spanish, Mog, and Infus are often used in the medical literature, and governmental agencies have to follow these scores before providing any material to patients, for example. In the DMV, for not patients, any individual, for example, in the DMV, so those are the tools they use to score readability, understandability, and actionability. HEMAT and PMAT are two scores, or like a benchmark or a minimum of characteristics the documents have to meet before being given to patients. Both of those scores are provided by the Health and Human Services, and then accuracy, completeness, and harmfulness.
+It's a five-point Likert scale. I'm not the biggest fan of Likert scales because there's a lot of subjectivity to it. But at least for now, the literature around large language models has been using Likert scales.
+So we're comparing the readability of the documents that I showed earlier, which tend to be very verbose and long. And we can see that with prompt engineering, we were able to lower the Spanish reading levels down compared to the human version that we provide to patients. As I said, PMAT and HEMAT are made to assess for understandability and actionability. There isn't a universal CTO because this is basically for any patient-facing material that the medical communities give.
+I've seen another case using a cutoff of 70% and 80%, like a minimum. You need to meet that. And essentially, both the Lark and LLM model met the standards. So we don't have a concrete number because it would be 100%.
+If you look at the actual score, it just sets things like, "Are you using bullet points?" "Are you using short sentences?" etc. Then, for the Likert scale, this is using the discharge instructions that I showed earlier, that April brought up the point that this is the one that we attached to at the time of discharge. This is using discharge instructions from my clinic in Fair Oaks.
+The reference that we're using here is quite concerning because this is a primarily Spanish-speaking clinic. Some clinicians were using Google Translate to give patients discharge materials. So that's the reference in this chart.
+So, as you can see across the board, GPT-4 scored higher in overall accuracy, medical accuracy, and I have a thorough chart that goes into what means of medical accuracy, et cetera, contextual meaning, clarity, and safety.
+April Liang | 35:14
+Sorry. Eduardo. This was raided by bilingual providers. Yeah.
+Eduardo | 35:19
+By bilingual providers.
+April Liang | 35:21
+As were the HEMAT and PMAT, or are those automated? Sorry, I totally missed that.
+Eduardo | 35:26
+No, sorry, I didn't mention that HEMAT and PMAT were evaluated by bilingual physicians. Yes.
+April Liang | 35:32
+Okay, but the Spanish SOG, SOG, and the other ones are automated, right? Well.
+Eduardo | 35:37
+Those are all automated, they look at sentence length, et cetera. Okay, so that's... This is the last slide, I believe. Yeah. And this is the last slide. This is still in the works because Fair Oaks... For those who don't know, this clinic is at Stanford. There's
+either the Global Health residence or Spanish-speaking residents like myself. They were interested in our study. There's a lot of red tape in establishing a pilot there because it's a county clinic.
+So I'm not sure where this is going through my... The leadership there is still asking some Mateo County. And I'm not that confident it'll happen, but our proposed pilot was to give patients an AI-translated version and standard Discourses instructions, then assess comprehension with a Likert scale and a Teach pack and understandability with the Hemet score, and we would get clinician feedback. The Time Motion Subs study. That was an idea that Jayson Hub brought when we were discussing this study, just to see if this AI translation workflow improves how fast you can discharge patients, how much time you spend reviewing materials with them, et cetera.
+So that is basically a summary of what we've been doing so far.
+Stephen Ma | 37:16
+Sorry, I just wanted to confirm. It sounds like the baseline in that previous comparison that you showed is essentially whatever people are giving out, whether it's like Google Translate or like whatever workflow they're using is essentially like that's what it's like, not like an ideal state.
+It's essentially like real doing.
+Eduardo | 37:37
+I mean, it is real worldwide patients. I mean, those are retrospectively acquired discharge instructions that I got. So I would say that, clinically at least up to 2024, when really exploded, people were using that to...
+Yeah, the charge. When I was an intern, I remember other care staff using Google Translate. Descrip.
+Chukwuebuka Anyaegbuna | 38:11
+Okay, that's super helpful. So I guess it comes down to the question. I shared with everyone on the call. I thought this might come up, and there was going to be a difference between the scorecard approach versus the scorecard evaluation approach versus the patient comprehension approach.
+I've shared with everyone what I think is my best understanding of what Kevin wants, into the automated back translation, back and forth, and the questions we're trying to answer. I think probably a good next step.
+Unless Natasha, April, or Stephen has a particular view on this, I guess. What's the best way of making a decision of which one to go forward with? I don't know if it's like an anonymous message to me, and then we just total it up, or if it's like you guys need to speak amongst yourselves or speak to Kevin and Jonathan.
+I'm open to either, but I guess what do we want to focus on?
+April Liang | 39:14
+Well, I think we can somewhat divide and conquer. I definitely think Eduardo, extending Eduardo's more automated metrics on several more languages beyond Spanish, and with more models, is something that Kevin is very interested in, so I think we should totally support Eduardo in doing that. Eduardo, I think we can think about not just cardiology discharge instructions but Kevin did mention he's interested in IH education material.
+So it doesn't actually have to be patient-facing, like written instructions as complicated as we thought. So I think we can definitely do that. And then in terms of kind of the more like Evonne's goal of kind of how do we measure comprehension and do we do that as we develop a framework and make it a benchmark/validate or do we do something else?
+I think that one's a little bit more up in there, but I'll just say, like, 780 is very unreasonable.
+Chukwuebuka Anyaegbuna | 40:23
+Yeah. Yeah, it's about... Yeah.
+natasha steele | 40:31
+Yeah. Just to echo what April's saying. I my preference would be if we can divide and conquer and get both done. I think that would be great. If folks have strong interest or preference in one direction or another,
+maybe we can form two working groups and then include one another as co-authors in both initiatives so that we're working synergistically and everyone's getting academic credit for coming up with
+and leading a lot of this work. Can I know we're at time? I want to be really mindful.
+Chukwuebuka Anyaegbuna | 41:04
+Yes, yeah, of course.
+natasha steele | 41:05
+And Friday evening? I just want to pitch a really quick idea. Can you guys hear me? Okay, so come.
+Chukwuebuka Anyaegbuna | 41:13
+Yeah.
+natasha steele | 41:13
+Okay, great.
+That gets at some of the underlying, like baseline data rationale for a lot of this work.
+So essentially, we worked with TDS about two weeks ago and rolled out a banner with an EPIC that identifies patients with limited English proficiency as they have self-identified during registration when they are admitted to the hospital.
+So now, anyone admitted through the emergency department, regardless if it's internal medicine, surgery, he, Monk, et cetera, gets flagged with this banner. So we actually have a way of tracking these patients that say at registration, "I don't speak English. Et cetera.
+And then figuring out across specialties and across the hospital over a certain period of time, what percentage of discharge instructions are in English, what percentage are requested by rational translators?
+We have that data from our interpretation translation services. What percentage look like something like Google Translate or an LLM? I think that actually that information doesn't exist in literature, not only for an academic center, but how that varies across specialties.
+I think that's a really interesting rationale for saying, like, why it's really important we know the current state. To your point, Eduardo, I've used Google Translate, and everyone uses that on the awards. We know it's an issue. We have some data to show maybe how big of an issue it is, but not really more granular around how that varies across different languages, different specialties and things like that.
+So we can pull that data pretty easily if anyone. We just rolled out the banner two weeks ago. So I would say give it a couple of months, but as a rationale for why we all know this is important work, but really making the case around the current state and how these tools lend potential for improving upon the current state and having actual numbers and how that varies across specialties.
+I think this is an opportunity for us, and we would love to include folks in this group if they're interested in collaborating on that.
+Eduardo | 43:10
+You know, I would love to see that data, because when I was making this project, that was a recurrent theme that we had: what's the standard right now? What are we? We didn't have a way of knowing.
+So that's great. I really want to get involved in that.
+Stephen Ma | 43:26
+I'm surprised that hasn't been published, for I mean, maybe not here at Stanford, but like that no one has looked into this.
+Eduardo | 43:32
+I haven't seen it either.
+natasha steele | 43:34
+Yeah, I haven't seen it. We could do a quick, more formal, let reviewer search, but I haven't seen it. Honestly, it's not great headlines for Stanford because we know what it's going to show. Patients are either discharged the majority of the time with English instructions or with some sort of Google Translate.
+I would say probably anecdotally, maybe 30% receive professionally translated, and I know for my surgical colleagues, I work predominantly on neurosurgery and have a neck. They probably never use it. They never use interpretation or translation services. I just know that I've seen their discharge instructions,
+and those are high stakes, like wound care. Maybe aside from Spanish, I haven't seen Stephen really how, maybe on the whole for one particular language, but not across languages and not across specialties.
+I don't know if it's just a matter of how those patients are identified and the granularity of that, but I think with this mechanism, with this new banner, we will be able to say much more accurately that these are patients that were flagged for their physicians on the day of admission that they don't speak English as a primary language,
+and yet we're still given English discharge instructions or Google Translate. So, yeah, I'm happy to do a quick search again. This just came across my desk today, but I think we have an opportunity here.
+April Liang | 45:05
+Sorry this is totally unrelated, but I just wanted to comment since our translator partners are not here today. But I do think that our translator services have been a pretty good partner. Chuck, what you missed was they were willing to help us get use their language translation vendor to help us get the best kind of contract for translating any materials as part of the studies that we do.
+Then, they actually... I asked my gosh, mind blank, I asked her what her name was. Guys, I asked. Yes, I had Joanna, if there was any translation, world comprehension, scores that she was aware of for customer or client-facing translation comprehension.
+She said she would look into it, and then, yeah, I think overall, they seem like a good partner and not necessarily here to pump the brakes on us.
+Chukwuebuka Anyaegbuna | 46:10
+Yeah, company name break.
+April Liang | 46:11
+Yeah. She did say that she'd be happy to look into the discharge instructions and stuff that they've translated before for us.
+The challenge would be then we can't control for having the same difficulty or the same content across languages, so it's more realistic to translate the same base text into however many languages we want to evaluate.
+Chukwuebuka Anyaegbuna | 46:31
+Yeah, I love that. Yeah, there were a bunch of emails that you probably haven't seen with Erin being too powerful and pointing us in the right direction of where to get our documents translated, how much it's going to cost, and being quite engaged.
+April Liang | 46:44
+Yeah, I don't think I saw those yet, but I did see some back and forth with Joanna. So, I wanted to just let you know about of.
+Chukwuebuka Anyaegbuna | 46:48
+Yeah, amazing, so yeah, I'm keen to get involved.
+April Liang | 46:49
+That's where we left off last week.
+Chukwuebuka Anyaegbuna | 46:56
+Natasha cognizant of people's time. I think it sounds like there are three things we need to disambiguate. I will touch base.
+Probably with a smaller group to figure out what the question for each one is. I think that's at least for me super clarifying what the question for each one is. And then if we've got appetite within the group, we can then start to point resources in the right direction. Cool. Any last thoughts or comments? Probably...
+I know Thanksgiving is big here, so there's not going to be a thing next week, I guess. No call next week. And then... So two weeks time. I will force some of you to be in a call with me next week. But Natasha knows I like a call.
+So, most people will be spared.
+natasha steele | 48:01
+That sounds great. I'll be there.
+Chukwuebuka Anyaegbuna | 48:02
+Okay?
+natasha steele | 48:02
+Really excited. Thanks, everyone. I think we've got a lot of really tangible next steps and really looking forward to working with this group and wishing everyone a wonderful weekend and happy Thanksgiving.
+Chukwuebuka Anyaegbuna | 48:14
+Amazing.
+Eduardo | 48:15
+Likewise, thank youone.
+Chukwuebuka Anyaegbuna | 48:15
+Thank you. Cheers. Bye.
