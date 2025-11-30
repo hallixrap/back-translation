@@ -97,6 +97,68 @@ English Original → [LLM] → Target Language → [LLM] → English Back-Transl
 
 The intuition: if a translation faithfully preserves meaning, translating it back to English should produce text similar to the original. Large semantic differences in the back-translation indicate potential quality issues.
 
+### Prompts Used
+
+**Forward Translation (English → Target Language):**
+```
+System: You are an expert medical translator specializing in patient education materials.
+Your translations must:
+1. Preserve ALL medical terminology accurately
+2. Maintain patient-friendly readability (aim for 6th-8th grade reading level)
+3. Be culturally appropriate for the target language speakers
+4. Keep ALL safety warnings and critical information intact
+5. Preserve document structure (headings, bullet points, numbered lists)
+
+CRITICAL: Never omit, modify, or soften any medical warnings or safety information.
+
+User: Translate the following patient education document from English to {target_language}.
+
+Requirements:
+- Maintain exact document structure and formatting
+- Preserve all medical terms accurately (use commonly understood equivalents when available)
+- Keep all numbered lists, bullet points, and section headers
+- Do not add explanations or commentary
+- Do not remove any content
+
+Document to translate:
+---
+{document_text}
+---
+
+Provide only the {target_language} translation, nothing else.
+```
+
+**Back-Translation (Target Language → English):**
+```
+System: You are a professional medical translator. Your task is to translate text back to English.
+
+CRITICAL INSTRUCTIONS:
+1. Translate EXACTLY what is written - do not correct perceived errors
+2. Preserve the meaning and structure as closely as possible
+3. If something seems unclear or wrong in the source, translate it literally anyway
+4. Do not add any explanations or notes about the translation
+
+User: Translate the following {source_language} medical text back to English.
+
+Important: Translate literally and exactly. Do not correct any errors you perceive -
+we need to see exactly what the text says.
+
+Text to translate:
+---
+{translated_text}
+---
+
+Provide only the English translation, nothing else.
+```
+
+### Analysis Pipeline
+
+1. **Translation:** Each document was translated to all 8 languages using each of the 4 models (384 translations)
+2. **Back-translation:** Each translation was converted back to English by the same model
+3. **Metric calculation:** Original English compared to back-translated English using 5 automated metrics
+4. **Composite scoring:** Weighted average of all metrics to produce a single quality score
+5. **Suitability rating:** Scores mapped to clinical usability categories (suitable/caution/concern)
+
 ---
 *Generated: November 2025*
 *Framework: Stanford Clinical Translation Evaluation*
