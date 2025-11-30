@@ -248,92 +248,10 @@ def generate_reviewer_packet_html(
             <h4>Back-Translation (to English):</h4>
             <div class='text-box back-translated'>{item.back_translated_text[:2000]}{'...' if len(item.back_translated_text) > 2000 else ''}</div>
 
-            <h4>Your Evaluation:</h4>
-            <table class='rating-table'>
-                <tr>
-                    <th>Criterion</th>
-                    <th>Rating (1-5)</th>
-                </tr>
-                <tr>
-                    <td>Overall Accuracy</td>
-                    <td>
-                        <div class='rating-scale'>
-                            <label><input type='radio' name='{item.eval_id}_overall' value='1'> 1</label>
-                            <label><input type='radio' name='{item.eval_id}_overall' value='2'> 2</label>
-                            <label><input type='radio' name='{item.eval_id}_overall' value='3'> 3</label>
-                            <label><input type='radio' name='{item.eval_id}_overall' value='4'> 4</label>
-                            <label><input type='radio' name='{item.eval_id}_overall' value='5'> 5</label>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Medical Accuracy</td>
-                    <td>
-                        <div class='rating-scale'>
-                            <label><input type='radio' name='{item.eval_id}_medical' value='1'> 1</label>
-                            <label><input type='radio' name='{item.eval_id}_medical' value='2'> 2</label>
-                            <label><input type='radio' name='{item.eval_id}_medical' value='3'> 3</label>
-                            <label><input type='radio' name='{item.eval_id}_medical' value='4'> 4</label>
-                            <label><input type='radio' name='{item.eval_id}_medical' value='5'> 5</label>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Cultural Appropriateness</td>
-                    <td>
-                        <div class='rating-scale'>
-                            <label><input type='radio' name='{item.eval_id}_cultural' value='1'> 1</label>
-                            <label><input type='radio' name='{item.eval_id}_cultural' value='2'> 2</label>
-                            <label><input type='radio' name='{item.eval_id}_cultural' value='3'> 3</label>
-                            <label><input type='radio' name='{item.eval_id}_cultural' value='4'> 4</label>
-                            <label><input type='radio' name='{item.eval_id}_cultural' value='5'> 5</label>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Clarity</td>
-                    <td>
-                        <div class='rating-scale'>
-                            <label><input type='radio' name='{item.eval_id}_clarity' value='1'> 1</label>
-                            <label><input type='radio' name='{item.eval_id}_clarity' value='2'> 2</label>
-                            <label><input type='radio' name='{item.eval_id}_clarity' value='3'> 3</label>
-                            <label><input type='radio' name='{item.eval_id}_clarity' value='4'> 4</label>
-                            <label><input type='radio' name='{item.eval_id}_clarity' value='5'> 5</label>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Safety Preservation</td>
-                    <td>
-                        <div class='rating-scale'>
-                            <label><input type='radio' name='{item.eval_id}_safety' value='1'> 1</label>
-                            <label><input type='radio' name='{item.eval_id}_safety' value='2'> 2</label>
-                            <label><input type='radio' name='{item.eval_id}_safety' value='3'> 3</label>
-                            <label><input type='radio' name='{item.eval_id}_safety' value='4'> 4</label>
-                            <label><input type='radio' name='{item.eval_id}_safety' value='5'> 5</label>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Actionability</td>
-                    <td>
-                        <div class='rating-scale'>
-                            <label><input type='radio' name='{item.eval_id}_action' value='1'> 1</label>
-                            <label><input type='radio' name='{item.eval_id}_action' value='2'> 2</label>
-                            <label><input type='radio' name='{item.eval_id}_action' value='3'> 3</label>
-                            <label><input type='radio' name='{item.eval_id}_action' value='4'> 4</label>
-                            <label><input type='radio' name='{item.eval_id}_action' value='5'> 5</label>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-
-            <h4>Critical Errors Found:</h4>
-            <label><input type='checkbox' name='{item.eval_id}_critical'> This translation contains critical safety errors</label>
-            <textarea class='notes-box' name='{item.eval_id}_critical_notes' placeholder='Describe any critical errors here...'></textarea>
-
-            <h4>Additional Notes:</h4>
-            <textarea class='notes-box' name='{item.eval_id}_notes' placeholder='Any other observations about this translation...'></textarea>
+            <div style='background: #f0f0f0; padding: 15px; border-radius: 8px; margin-top: 15px; border-left: 4px solid #3498db;'>
+                <strong>📝 Record your scores in the Excel spreadsheet</strong><br>
+                Find row with <strong>{item.eval_id}</strong> and enter your ratings (1-5) for each criterion.
+            </div>
         </div>
         """)
 
