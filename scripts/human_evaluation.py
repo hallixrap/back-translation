@@ -24,6 +24,10 @@ from config import (
     logger
 )
 
+# Human evaluation materials go in their own directory
+HUMAN_EVAL_DIR = OUTPUT_DIR / "human_evaluation"
+HUMAN_EVAL_DIR.mkdir(parents=True, exist_ok=True)
+
 # Optional pandas for Excel generation
 try:
     import pandas as pd
@@ -101,7 +105,7 @@ def generate_evaluation_items(translations_file: str = "all_results.json", blind
         model_mapping = dict(zip(actual_models, model_labels))
 
         # Save the mapping for later unblinding
-        mapping_file = REPORTS_DIR / "model_blinding_key.json"
+        mapping_file = HUMAN_EVAL_DIR / "model_blinding_key.json"
         with open(mapping_file, 'w') as f:
             json.dump({"mapping": model_mapping, "note": "DO NOT share with reviewers until evaluation is complete"}, f, indent=2)
         logger.info(f"Model blinding key saved to {mapping_file}")
@@ -272,7 +276,7 @@ def generate_reviewer_packet_html(
     if output_filename is None:
         output_filename = f"eval_packet_{language}_{datetime.now().strftime('%Y%m%d')}.html"
 
-    filepath = REPORTS_DIR / output_filename
+    filepath = HUMAN_EVAL_DIR / output_filename
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write("\n".join(html_parts))
 
@@ -327,7 +331,7 @@ def generate_excel_evaluation_sheet(
     if output_filename is None:
         output_filename = f"eval_sheet{lang_suffix}_{datetime.now().strftime('%Y%m%d')}.xlsx"
 
-    filepath = REPORTS_DIR / output_filename
+    filepath = HUMAN_EVAL_DIR / output_filename
 
     with pd.ExcelWriter(filepath, engine='openpyxl') as writer:
         # Main evaluation sheet
@@ -565,7 +569,7 @@ def generate_all_evaluation_materials(translations_file: str = "all_results.json
         print(f"  ✓ All languages: {filepath}")
 
     # Save items for later use
-    items_file = REPORTS_DIR / "evaluation_items.json"
+    items_file = HUMAN_EVAL_DIR / "evaluation_items.json"
     with open(items_file, 'w', encoding='utf-8') as f:
         json.dump([item.to_dict() for item in items], f, indent=2)
     print(f"\n✓ Saved evaluation items to: {items_file}")

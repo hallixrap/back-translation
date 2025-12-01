@@ -111,12 +111,17 @@ Back translation project/
     │   └── all_results.json           # All 384 translation pairs
     ├── metrics/
     │   └── all_metrics.json           # Complete metric scores
-    └── reports/
-        ├── translation_report.html    # Interactive visual report
-        ├── translation_report.csv     # Excel-friendly export
-        ├── kevin_scorecard.txt        # Quick summary
-        ├── full_report.json           # Complete data
-        └── EXECUTIVE_SUMMARY.md       # Executive summary
+    ├── reports/
+    │   ├── translation_report.html    # Interactive visual report
+    │   ├── translation_report.csv     # Excel-friendly export
+    │   ├── kevin_scorecard.txt        # Quick summary
+    │   ├── full_report.json           # Complete data
+    │   └── EXECUTIVE_SUMMARY.md       # Executive summary
+    └── human_evaluation/
+        ├── eval_packet_*.html         # HTML packets for reviewers (one per language)
+        ├── eval_sheet_*.xlsx          # Excel scoresheets (one per language)
+        ├── model_blinding_key.json    # Maps Model A/B/C/D to actual model names
+        └── evaluation_items.json      # All evaluation items data
 ```
 
 ## Output Files
